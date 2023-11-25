@@ -1,0 +1,67 @@
+---
+title: "Calendar"
+author: "Bastian Reiter"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+
+library(TinkerLab)
+
+
+```
+
+
+```{r calculation}
+
+library(TinkerLab)
+
+
+
+vc_People <- c("Laura", "Annika", "Anna", "Ylva", "Kevin", "Basti")
+
+# Shuffle
+vc_People <- sample(vc_People)
+
+# Shuffle
+vc_From <- rep(vc_People, each = 4)
+vc_To <- c(ShiftValues(vc_People, 1)[1:4],
+           ShiftValues(vc_People, 2)[1:4],
+           ShiftValues(vc_People, 3)[1:4],
+           ShiftValues(vc_People, 4)[1:4],
+           ShiftValues(vc_People, 5)[1:4],
+           ShiftValues(vc_People, 6)[1:4])
+
+
+Calendar <- tibble::tibble(PairID = 1:length(vc_From),
+                           From = vc_From,
+                           To = vc_To)
+
+# CalendarSum <- Calendar %>%
+#                   group_by(To) %>%
+#                   summarize(N = n())
+
+# Shuffle pairs
+CalendarShuffled <- Calendar[sample(Calendar$PairID), ]
+# Shuffle pairs again, repeat line as often as preferred
+CalendarShuffled <- CalendarShuffled[sample(CalendarShuffled$PairID), ]
+
+
+Calendar <- CalendarShuffled %>%
+                dplyr::mutate(Day = 1:24) %>%
+                dplyr::select(Day, From, To)
+```
+
+# Adventskalender
+
+
+```{r pressure, echo=FALSE}
+
+Calendar %>%
+    gt::gt()
+
+```
+
