@@ -10,14 +10,17 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Imports: 
+    DBI,
     dplyr,
+    duckdb,
     ggplot2,
     gt,
     gtExtras,
     purrr,
     rlang,
     showtext,
-    sysfonts
+    sysfonts,
+    xml2
 Depends: 
     R (>= 2.10)
 LazyData: true

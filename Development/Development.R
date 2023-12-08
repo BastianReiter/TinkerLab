@@ -21,7 +21,9 @@ library(devtools)
 
 # Adding package dependencies using usethis::use_package()
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# use_package("DBI")
 # use_package("dplyr")
+# use_package("duckdb")
 # use_package("ggplot2")
 # use_package("gt")
 # use_package("gtExtras")
@@ -29,12 +31,14 @@ library(devtools)
 # use_package("rlang")
 # use_package("showtext")
 # use_package("sysfonts")
+# use_package("xml2")
 
 
 
 # Adding function script files
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # use_r("data")
+# use_r("DataModelToDB")
 # use_r("ExportPlot")
 # use_r("GetECDF")
 # use_r("GetSampleQuantiles")
@@ -44,3 +48,4 @@ library(devtools)
 # use_r("MakePlot_Column")
 # use_r("MakePlot_BoxViolin")
 # use_r("ShiftValues")
+# use_r("XMLToDataModel")

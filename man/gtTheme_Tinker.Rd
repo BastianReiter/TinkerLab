@@ -9,6 +9,7 @@ gtTheme_Tinker(
   ShowNAs = FALSE,
   TableWidth = NULL,
   TableAlign = "center",
+  BaseFontSize = "80\%",
   ...
 )
 }

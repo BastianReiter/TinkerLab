@@ -8,7 +8,7 @@
 #'
 #' A list of named vectors containing alpha values
 #'
-#' @format ## `Colors`
+#' @format ## `AlphaPalettes`
 #' A list of named vectors
 #' \describe{
 #'   \item{name}{Palette name}

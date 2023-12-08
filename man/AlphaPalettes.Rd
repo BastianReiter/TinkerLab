@@ -5,7 +5,7 @@
 \alias{AlphaPalettes}
 \title{Alpha palettes by Tinkerbelly}
 \format{
-\subsection{\code{Colors}}{
+\subsection{\code{AlphaPalettes}}{
 
 A list of named vectors
 \describe{
