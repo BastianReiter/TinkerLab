@@ -103,6 +103,17 @@
 #' Tibble
 #' \describe{
 #'   \item{OPSVersion}{Year of OPS version}
+#'   \item{CodeLevel}{}
+#'   \item{IsTerminal}{}
+#'   \item{ChapterCode}{}
+#'   \item{FirstSubgroupCodeOfGroup}{}
+#'   \item{SubgroupCode}{}
+#'   \item{OPSCode}{}
+#'   \item{NeedsLocalization}{}
+#'   \item{Procedure}{}
+#'   \item{ProcedureMain}{}
+#'   \item{ProcedureSpecification}{}
+#'   \item{ProcedureSubspecification}{}
 #' }
 #' @source <https://github.com/BastianReiter/TinkerLab/tree/main/Development/Data>
 "OPSCodes"
