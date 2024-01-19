@@ -32,7 +32,7 @@
 #' \describe{
 #'   \item{ICD10CodeShort}{Three digit ICD-10 code}
 #'   \item{CancerTopographyGroup_ICD10}{Topography group as put forth by ICD-10}
-#'   \item{CancerTopographyDetail_ICD10}{Affected organ / topography as put forth by ICD-10}
+#'   \item{CancerTopographyOrgan_ICD10}{Affected organ / topography as put forth by ICD-10}
 #'   \item{CancerTopographyGroup_ZFKD}{Topography detail as put forth by ZFKD}
 #'   \item{CancerTopographySpecification}{Additional information on topography}
 #'   \item{CancerSpecification}{Specification of cancer entity where needed}
