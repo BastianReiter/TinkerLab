@@ -21,6 +21,7 @@
 #' @export
 #'
 #' @examples
+#' @author Bastian Reiter
 ExportPlot <- function(Plot,
                        Directory,
                        FileName = "default",

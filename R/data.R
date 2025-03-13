@@ -20,6 +20,26 @@
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ATCCodes.rda
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#' Table of ATC codes with german and english labels
+#'
+#' A tibble
+#'
+#' @format ## 'ATCCodes'
+#' Tibble
+#' \describe{
+#'   \item{ATCCode}{ATC code}
+#'   \item{NameGerman}{}
+#'   \item{NameEnglish}{}
+#' }
+#' @source <https://github.com/BastianReiter/TinkerLab/tree/main/Development/Data>
+"ATCCodes"
+
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # CancerGrouping.rda
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

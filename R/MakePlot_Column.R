@@ -34,6 +34,7 @@
 #' @export
 #'
 #' @examples
+#' @author Bastian Reiter
 MakePlot_Column <- function(DataFrame,
                             XFeature,
                             XFeatureSpecs = NULL,
