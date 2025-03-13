@@ -16,9 +16,9 @@ DataGerman <- readxl::read_excel(path = "C:/Users/Basti/Desktop/atcdata.xlsx",
                                  sheet = "Tabelle1")
 
 
-ATCData <- DataGerman %>%
-              left_join(DataEnglish, by = join_by(Code == key)) %>%
-              setNames(c("ATCCode", "NameGerman", "NameEnglish"))
+ATCCodes <- DataGerman %>%
+                left_join(DataEnglish, by = join_by(Code == key)) %>%
+                setNames(c("ATCCode", "NameGerman", "NameEnglish"))
 
 
 
