@@ -20,14 +20,14 @@
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# ATCCoding.rda
+# Res.ATCCoding.rda
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #' Table of ATC codes of all categoric levels with german labels
 #'
 #' A tibble
 #'
-#' @format ## 'ATCCoding'
+#' @format ## 'Res.ATCCoding'
 #' Tibble
 #' \describe{
 #'   \item{Code}{Full ATCCode}
@@ -42,19 +42,19 @@
 #'   \item{Category5}{}
 #' }
 #' @source <https://github.com/BastianReiter/TinkerLab/tree/main/Development/Data>
-"ATCCoding"
+"Res.ATCCoding"
 
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# CancerGrouping.rda
+# Res.CancerGrouping.rda
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #' Data on grouping of ICD-10 cancer codes
 #'
 #' A tibble
 #'
-#' @format ## 'CancerGrouping'
+#' @format ## 'Res.CancerGrouping'
 #' Tibble
 #' \describe{
 #'   \item{ICD10Code.Short}{Three digit ICD-10 code}
@@ -68,19 +68,19 @@
 #'   \item{CancerIsNeoplasmOfUncertainBehavior}{}
 #' }
 #' @source <https://github.com/BastianReiter/TinkerLab/tree/main/Development/Data>
-"CancerGrouping"
+"Res.CancerGrouping"
 
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# CancerSurgery.rda
+# Res.CancerSurgery.rda
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#' Meta data on OPS codes in cancer surgery
+#' Data on OPS codes in cancer surgery
 #'
 #' A tibble
 #'
-#' @format ## 'CancerSurgery'
+#' @format ## 'Res.CancerSurgery'
 #' Tibble
 #' \describe{
 #'   \item{ICD10Code.Short}{Three digit ICD-10 code}
@@ -95,7 +95,7 @@
 #'   \item{IsInPlattform65cCatalogue}{}
 #' }
 #' @source <https://github.com/BastianReiter/TinkerLab/tree/main/Development/Data>
-"CancerSurgery"
+"Res.CancerSurgery"
 
 
 
@@ -119,14 +119,14 @@
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# OPSCodes.rda
+# Res.OPSCodes.rda
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #' Data on OPS codes in general
 #'
 #' A tibble
 #'
-#' @format ## 'OPSCodes'
+#' @format ## 'Res.OPSCodes'
 #' Tibble
 #' \describe{
 #'   \item{OPSVersion}{Year of OPS version}
@@ -143,4 +143,44 @@
 #'   \item{Procedure.Subspecification}{}
 #' }
 #' @source <https://github.com/BastianReiter/TinkerLab/tree/main/Development/Data>
-"OPSCodes"
+"Res.OPSCodes"
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Res.P21Departments.rda
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#' Data on Hospital Department coding in the context of P21 data
+#'
+#' A tibble
+#'
+#' @format ## 'Res.P21Departments'
+#' Tibble
+#' \describe{
+#'   \item{DepartmentCode}{}
+#'   \item{DepartmentOriginalLabel}{}
+#'   \item{Department}{}
+#'   \item{OperatingSpecialty}{}
+#'   \item{Subspecialty}{}
+#' }
+#' @source <https://github.com/BastianReiter/TinkerLab/tree/main/Development/Data>
+"Res.P21Departments"
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Res.P21DischargeReasons.rda
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#' Data on Discharge Reason coding in the context of P21 data
+#'
+#' A tibble
+#'
+#' @format ## 'Res.P21DischargeReasons'
+#' Tibble
+#' \describe{
+#'   \item{DischargeReasonCode}{}
+#'   \item{DischargeReasonOriginalLabel}{}
+#'   \item{DischargeCategory}{}
+#' }
+#' @source <https://github.com/BastianReiter/TinkerLab/tree/main/Development/Data>
+"Res.P21DischargeReasons"
