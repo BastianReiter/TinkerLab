@@ -3,16 +3,16 @@
 \docType{data}
 \name{CancerGrouping}
 \alias{CancerGrouping}
-\title{Meta data on grouping of ICD-10 cancer codes}
+\title{Data on grouping of ICD-10 cancer codes}
 \format{
 \subsection{'CancerGrouping'}{
 
 Tibble
 \describe{
-\item{ICD10CodeShort}{Three digit ICD-10 code}
-\item{CancerTopographyGroup_ICD10}{Topography group as put forth by ICD-10}
-\item{CancerTopographyDetail_ICD10}{Affected organ / topography as put forth by ICD-10}
-\item{CancerTopographyGroup_ZFKD}{Topography detail as put forth by ZFKD}
+\item{ICD10Code.Short}{Three digit ICD-10 code}
+\item{CancerTopographyGroup.ICD10}{Topography group as put forth by ICD-10}
+\item{CancerTopographyOrgan.ICD10}{Affected organ / topography as put forth by ICD-10}
+\item{CancerTopographyGroup.ZFKD}{Topography detail as put forth by ZFKD}
 \item{CancerTopographySpecification}{Additional information on topography}
 \item{CancerSpecification}{Specification of cancer entity where needed}
 \item{CancerIsLikelyToMetastasize}{}

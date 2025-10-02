@@ -3,7 +3,7 @@
 \docType{data}
 \name{OPSCodes}
 \alias{OPSCodes}
-\title{Meta data on OPS codes in general}
+\title{Data on OPS codes in general}
 \format{
 \subsection{'OPSCodes'}{
 
@@ -18,9 +18,9 @@ Tibble
 \item{OPSCode}{}
 \item{NeedsLocalization}{}
 \item{Procedure}{}
-\item{ProcedureMain}{}
-\item{ProcedureSpecification}{}
-\item{ProcedureSubspecification}{}
+\item{Procedure.Main}{}
+\item{Procedure.Specification}{}
+\item{Procedure.Subspecification}{}
 }
 }
 }

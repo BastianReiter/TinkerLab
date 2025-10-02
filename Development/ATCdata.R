@@ -5,6 +5,7 @@
 
 library(dplyr)
 
+
 # Get english data from 'atc' package
 # devtools::install_github("jorainer/atc")
 
@@ -18,7 +19,6 @@ DataGerman <- readxl::read_excel(path = "C:/Users/Basti/Desktop/atcdata.xlsx",
 
 ATCCodes <- DataGerman %>%
                 left_join(DataEnglish, by = join_by(Code == key)) %>%
-                setNames(c("ATCCode", "NameGerman", "NameEnglish"))
-
-
+                setNames(c("ATCCode", "NameGerman", "NameEnglish")) %>%
+                distinct()
 

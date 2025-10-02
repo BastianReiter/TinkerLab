@@ -9,9 +9,9 @@
 
 Tibble
 \describe{
-\item{ICD10CodeShort}{Three digit ICD-10 code}
-\item{CancerTopographyDetail_ICD10}{Affected organ / topography as put forth by ICD-10}
-\item{OPSCodeShort}{Four digit OPS code}
+\item{ICD10Code.Short}{Three digit ICD-10 code}
+\item{CancerTopographyDetail.ICD10}{Affected organ / topography as put forth by ICD-10}
+\item{OPSCode.Short}{Four digit OPS code}
 \item{Procedure}{German label of procedure coded in OPS}
 \item{IsLikelyCancerRelated}{}
 \item{IsLikelyCurativeIntention_Primary}{}

@@ -20,22 +20,29 @@
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# ATCCodes.rda
+# ATCCoding.rda
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#' Table of ATC codes with german and english labels
+#' Table of ATC codes of all categoric levels with german labels
 #'
 #' A tibble
 #'
-#' @format ## 'ATCCodes'
+#' @format ## 'ATCCoding'
 #' Tibble
 #' \describe{
-#'   \item{ATCCode}{ATC code}
-#'   \item{NameGerman}{}
-#'   \item{NameEnglish}{}
+#'   \item{Code}{Full ATCCode}
+#'   \item{Substance}{}
+#'   \item{Category1Code}{}
+#'   \item{Category1}{}
+#'   \item{Category3Code}{}
+#'   \item{Category3}{}
+#'   \item{Category4Code}{}
+#'   \item{Category4}{}
+#'   \item{Category5Code}{}
+#'   \item{Category5}{}
 #' }
 #' @source <https://github.com/BastianReiter/TinkerLab/tree/main/Development/Data>
-"ATCCodes"
+"ATCCoding"
 
 
 
@@ -43,17 +50,17 @@
 # CancerGrouping.rda
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#' Meta data on grouping of ICD-10 cancer codes
+#' Data on grouping of ICD-10 cancer codes
 #'
 #' A tibble
 #'
 #' @format ## 'CancerGrouping'
 #' Tibble
 #' \describe{
-#'   \item{ICD10CodeShort}{Three digit ICD-10 code}
-#'   \item{CancerTopographyGroup_ICD10}{Topography group as put forth by ICD-10}
-#'   \item{CancerTopographyOrgan_ICD10}{Affected organ / topography as put forth by ICD-10}
-#'   \item{CancerTopographyGroup_ZFKD}{Topography detail as put forth by ZFKD}
+#'   \item{ICD10Code.Short}{Three digit ICD-10 code}
+#'   \item{CancerTopographyGroup.ICD10}{Topography group as put forth by ICD-10}
+#'   \item{CancerTopographyOrgan.ICD10}{Affected organ / topography as put forth by ICD-10}
+#'   \item{CancerTopographyGroup.ZFKD}{Topography detail as put forth by ZFKD}
 #'   \item{CancerTopographySpecification}{Additional information on topography}
 #'   \item{CancerSpecification}{Specification of cancer entity where needed}
 #'   \item{CancerIsLikelyToMetastasize}{}
@@ -76,9 +83,9 @@
 #' @format ## 'CancerSurgery'
 #' Tibble
 #' \describe{
-#'   \item{ICD10CodeShort}{Three digit ICD-10 code}
-#'   \item{CancerTopographyDetail_ICD10}{Affected organ / topography as put forth by ICD-10}
-#'   \item{OPSCodeShort}{Four digit OPS code}
+#'   \item{ICD10Code.Short}{Three digit ICD-10 code}
+#'   \item{CancerTopographyDetail.ICD10}{Affected organ / topography as put forth by ICD-10}
+#'   \item{OPSCode.Short}{Four digit OPS code}
 #'   \item{Procedure}{German label of procedure coded in OPS}
 #'   \item{IsLikelyCancerRelated}{}
 #'   \item{IsLikelyCurativeIntention_Primary}{}
@@ -115,7 +122,7 @@
 # OPSCodes.rda
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#' Meta data on OPS codes in general
+#' Data on OPS codes in general
 #'
 #' A tibble
 #'
@@ -131,9 +138,9 @@
 #'   \item{OPSCode}{}
 #'   \item{NeedsLocalization}{}
 #'   \item{Procedure}{}
-#'   \item{ProcedureMain}{}
-#'   \item{ProcedureSpecification}{}
-#'   \item{ProcedureSubspecification}{}
+#'   \item{Procedure.Main}{}
+#'   \item{Procedure.Specification}{}
+#'   \item{Procedure.Subspecification}{}
 #' }
 #' @source <https://github.com/BastianReiter/TinkerLab/tree/main/Development/Data>
 "OPSCodes"
