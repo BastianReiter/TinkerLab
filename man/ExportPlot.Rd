@@ -53,3 +53,6 @@ No return; The function creates a plot file
 \description{
 Helper function to save ggplot2 objects into graphic files, based on ggplot2::ggsave()
 }
+\author{
+Bastian Reiter
+}

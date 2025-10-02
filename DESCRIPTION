@@ -1,14 +1,14 @@
 Package: TinkerLab
 Title: TinkerLab
-Version: 0.0.9
+Version: 0.1.0
 Authors@R: 
     person("Bastian", "Reiter", , "bastian.reiter@posteo.de", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-1088-0502"))
-Description: Helper Functions from Tinkerbelly
+Description: General Functions and Resource Data from Tinkerbelly
 License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.2
 Imports: 
     DBI,
     dplyr,
@@ -19,8 +19,9 @@ Imports:
     purrr,
     rlang,
     showtext,
+    stringdist,
     sysfonts,
     xml2
 Depends: 
-    R (>= 2.10)
+    R (>= 3.5)
 LazyData: true

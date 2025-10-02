@@ -80,3 +80,6 @@ A ggplot2 object
 \description{
 MakeColumn_Plot
 }
+\author{
+Bastian Reiter
+}
