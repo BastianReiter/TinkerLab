@@ -65,8 +65,6 @@ use_data(Res.HIVCoding.Diseases, overwrite = TRUE)
 # OPS coding
 #===============================================================================
 
-# Data on OPS Coding
-#~~~~~~~~~~~~~~~~~~~
 Res.OPSCodes <- read_excel(path = "./Development/Data/TinkerLab_OPSCoding.xlsx",
                            sheet = "OPSCodes")
 
