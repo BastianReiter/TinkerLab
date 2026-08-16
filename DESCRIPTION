@@ -1,6 +1,6 @@
 Package: TinkerLab
 Title: TinkerLab
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: 
     person("Bastian", "Reiter", , "bastian.reiter@posteo.de", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-1088-0502"))

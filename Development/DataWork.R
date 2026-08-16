@@ -43,6 +43,13 @@ Res.CancerSurgery <- read_excel(path = "./Development/Data/TinkerLab_CancerCodin
 use_data(Res.CancerSurgery, overwrite = TRUE)
 
 
+# Data on ICD-O-3 Morphology grouping
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Res.ICDOMorphology <- FullCodes      # see script "./Development/ICDOData.R"
+
+use_data(Res.ICDOMorphology, overwrite = TRUE)
+
+
 
 #===============================================================================
 # HIV Coding
@@ -78,16 +85,22 @@ use_data(OPSCodes, overwrite = TRUE)
 
 FilePath <- "Development/Data/TinkerLab_P21.xlsx"
 
-Res.P21DischargeReasons <- read_excel(path = FilePath,
-                                      sheet = "DischargeReasons")
+Res.P21.AdmissionCauses <- read_excel(path = FilePath,
+                                      sheet = "AdmissionCauses")
 
-use_data(Res.P21DischargeReasons, overwrite = TRUE)
+use_data(Res.P21.AdmissionCauses, overwrite = TRUE)
 
 
-Res.P21Departments <- read_excel(path = FilePath,
-                                 sheet = "Departments")
+Res.P21.DischargeReasons <- read_excel(path = FilePath,
+                                       sheet = "DischargeReasons")
 
-use_data(Res.P21Departments, overwrite = TRUE)
+use_data(Res.P21.DischargeReasons, overwrite = TRUE)
+
+
+Res.P21.Departments <- read_excel(path = FilePath,
+                                  sheet = "Departments")
+
+use_data(Res.P21.Departments, overwrite = TRUE)
 
 
 

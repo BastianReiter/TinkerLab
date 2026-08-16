@@ -119,6 +119,31 @@
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Res.ICDOMorphology.rda
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#' Data on ICD-O-3 morphology codes
+#'
+#' A tibble
+#'
+#' @format ## 'Res.ICDOMorphology'
+#' Tibble
+#' \describe{
+#'   \item{ICDOMorphologyCode}{}
+#'   \item{ICDOMorphologyLabel}{}
+#'   \item{ICDOMorphologyGroupCode}{}
+#'   \item{ICDOMorphologyGroup}{}
+#'   \item{ICDOMorphologyGroup.Sub1}{}
+#'   \item{ICDOMorphologyGroup.Sub2}{}
+#'   \item{ICDOMorphologyBehaviorCode}{}
+#'   \item{ICDOMorphologyBehaviorLabel}{}
+#' }
+#' @source <https://github.com/BastianReiter/TinkerLab/tree/main/Development/Data>
+"Res.ICDOMorphology"
+
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Res.OPSCodes.rda
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -147,14 +172,34 @@
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Res.P21Departments.rda
+# Res.P21.AdmissionCauses.rda
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#' Data on Admission cause coding in the context of P21 data
+#'
+#' A tibble
+#'
+#' @format ## 'Res.P21.AdmissionCauses'
+#' Tibble
+#' \describe{
+#'   \item{AdmissionCauseCode}{}
+#'   \item{AdmissionCause}{}
+#'   \item{AdmissionCauseLabel}{}
+#'   \item{AdmissionCauseLabel.Original}{}
+#' }
+#' @source <https://github.com/BastianReiter/TinkerLab/tree/main/Development/Data>
+"Res.P21.AdmissionCauses"
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Res.P21.Departments.rda
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #' Data on Hospital Department coding in the context of P21 data
 #'
 #' A tibble
 #'
-#' @format ## 'Res.P21Departments'
+#' @format ## 'Res.P21.Departments'
 #' Tibble
 #' \describe{
 #'   \item{DepartmentCode}{}
@@ -164,18 +209,18 @@
 #'   \item{Subspecialty}{}
 #' }
 #' @source <https://github.com/BastianReiter/TinkerLab/tree/main/Development/Data>
-"Res.P21Departments"
+"Res.P21.Departments"
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Res.P21DischargeReasons.rda
+# Res.P21.DischargeReasons.rda
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #' Data on Discharge Reason coding in the context of P21 data
 #'
 #' A tibble
 #'
-#' @format ## 'Res.P21DischargeReasons'
+#' @format ## 'Res.P21.DischargeReasons'
 #' Tibble
 #' \describe{
 #'   \item{DischargeReasonCode}{}
@@ -183,4 +228,4 @@
 #'   \item{DischargeCategory}{}
 #' }
 #' @source <https://github.com/BastianReiter/TinkerLab/tree/main/Development/Data>
-"Res.P21DischargeReasons"
+"Res.P21.DischargeReasons"
