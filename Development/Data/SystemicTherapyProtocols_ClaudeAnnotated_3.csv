@@ -1,0 +1,245 @@
+﻿Unnamed: 0;Protocol;Substance1;Substance2;Substance3;Substance4;Substance5;Substance6;Substance7;ICD10_Main;ICD10_Secondary;ICDO_Topography_Main;ICDO_Topography_Secondary;Confidence;Note;DuplicateGroup;DuplicateGroup_Members;DuplicateGroup_Disambiguation;SubsetOf;SingleAgent
+1;ABVD;Bleomycin;Dacarbazin;Doxorubicin;Vinblastin;NA;NA;NA;C81;;C77;;high;Standard first-line Hodgkin lymphoma.;;;unique;;FALSE
+2;AC;Cyclophosphamid;Doxorubicin;NA;NA;NA;NA;NA;C50;C49,C54,C40,C41;C50;C49,C54,C40,C41;high;"Standard breast; anthracycline/alkylator backbone also used in sarcoma.";;;unique;ACO,BEACOPP,BrECADD,CAD,CHOEP,CHOP,DAC,EPOCH,EPOCH-R,FAC,Hyper-CVAD,PAC,Pola-R-CHP,R-CHOP,TAC;FALSE
+3;ACO;Cyclophosphamid;Doxorubicin;Vincristin;NA;NA;NA;NA;C34;C74,C40,C41,C49,C83,C85;C34;C74,C40,C41,C49,C77;medium;"German SCLC protocol (Adriamycin/Cyclophosphamid/Oncovin); same trio also appears in paediatric solid tumours and as CHOP without prednisone.";;;unique;BEACOPP,CHOEP,CHOP,EPOCH,EPOCH-R,Hyper-CVAD,R-CHOP;FALSE
+4;ADR-IFO;Doxorubicin;Ifosfamid;Mesna;NA;NA;NA;NA;C49,C48,C41;C40,C38,C47,C54,C69;C49,C48,C41;C40,C38,C47,C54,C69;high;Doxorubicin/ifosfamide: standard soft tissue and bone sarcoma.;;;unique;VIDE;FALSE
+5;AIO;Fluorouracil;Folinsäure;NA;NA;NA;NA;NA;C18,C19,C20;C16,C15,C21,C25,C22,C23,C24;C18,C19,C20;C16,C15,C21,C25,C22,C23,C24;high;AIO weekly infusional 5-FU/FA.;DG01;LV5FU2,Mayo-Protokoll;not resolvable by entity;AIO-Irinotecan,FLO,FLOT,FOLFIRI,FOLFIRI + Bevacizumab,FOLFIRI + Cetuximab,FOLFOX,FOLFOX + Bevacizumab,FOLFOX + Panitumumab,FOLFOXIRI,FUFAMI,FUFIRI,FUFOX,Folfirinox,PLF,nal-IRI + 5-FU/FA;FALSE
+6;AIO-Irinotecan;Fluorouracil;Folinsäure;Irinotecan;NA;NA;NA;NA;C18,C19,C20;C16,C25;C18,C19,C20;C16,C25;high;;DG02;FOLFIRI,FUFIRI;not resolvable by entity;FOLFIRI + Bevacizumab,FOLFIRI + Cetuximab,FOLFOXIRI,Folfirinox;FALSE
+7;AVD;Dacarbazin;Doxorubicin;Vinblastin;NA;NA;NA;NA;C81;;C77;;high;ABVD with bleomycin omitted.;;;unique;A+AVD,ABVD;FALSE
+8;BCD;Actinomycin D;Bleomycin;Cyclophosphamid;NA;NA;NA;NA;C40,C41,C49;C62,C56;C40,C41,C49;C62,C56;low;"AMBIGUOUS: bleomycin/cyclophosphamide/dactinomycin appears in historic osteosarcoma and rhabdomyosarcoma protocols; also resembles germ-cell schedules. Please confirm intended protocol.";;;unique;;FALSE
+9;BEACOPP;Bleomycin;Cyclophosphamid;Doxorubicin;Etoposid;Procarbazin;Vincristin;Prednison;C81;;C77;;high;;;;unique;;FALSE
+10;BEAM;BCNU;Cytarabin;Etoposid;Melphalan;NA;NA;NA;C81,C82,C83,C84,C85;C86,C88,C90,C91;C77;C77,C42;high;Autologous SCT conditioning: code the underlying lymphoma entity.;;;unique;Dexa-BEAM;FALSE
+11;BOLD;Bleomycin;Dacarbazin;Lomustin;Vincristin;NA;NA;NA;C43;C44,C69;C43;C44,C69;high;Melanoma.;;;unique;;FALSE
+12;BP;Bendamustin;Prednison;NA;NA;NA;NA;NA;C90;C91,C82,C83,C85,C88;C42;C42,C77;low;AMBIGUOUS: bendamustine/prednisone was the original German myeloma indication, but the same pair is used in CLL and indolent NHL. Please confirm.;;;unique;;FALSE
+13;BR;Bendamustin;Rituximab;NA;NA;NA;NA;NA;C82,C83,C88,C91;C85,C86;C77,C42;C77;high;Bendamustine/rituximab: FL, MZL, MCL, WM, CLL.;DG03;R-Bendamustin;not resolvable by entity;R-BAC;FALSE
+14;BrECADD;Brentuximab;Cyclophosphamid;Dacarbacin;Doxorubicin;Etoposid;Dexamethason;NA;C81;;C77;;high;;;;unique;;FALSE
+15;BuCy;Busulfan;Cyclophoshamid;NA;NA;NA;NA;NA;C92,C91;C93,C95,C90,D46;C42;C42,D46;medium;Allogeneic conditioning: code the underlying disease. D46 (MDS) included in secondary - drop if D-codes are out of scope.;;;unique;;FALSE
+16;CAD;Cyclophosphamid;Doxorubicin;Dexamethason;NA;NA;NA;NA;C90;C83,C85;C42;C77;medium;AMBIGUOUS: read as cyclophosphamide/doxorubicin/dexamethasone for myeloma mobilisation. Please confirm.;;;unique;BrECADD,Hyper-CVAD;FALSE
+17;CAPOX;Capecitabin;Oxaliplatin;NA;NA;NA;NA;NA;C18,C19,C20,C16;C15,C25,C22,C23,C24;C18,C19,C20,C16;C15,C25,C22,C23,C24;high;;DG04;XELOX;not resolvable by entity;EOX;FALSE
+18;Capecitabin mono;Capecitabin;NA;NA;NA;NA;NA;NA;C18,C19,C20,C50,C16;C15,C25,C22,C23,C24,C21;C18,C19,C20,C50,C16;C15,C25,C22,C23,C24,C21;high;;;;unique;CAPOX,CAPTEM,EOX,XELOX,XP;TRUE
+19;CarboTax;Carboplatin;Paclitaxel;NA;NA;NA;NA;NA;C56,C57,C48,C34,C54;C53,C15,C32,C67,C50,C37,C80;C56,C57,C48,C34,C54;C53,C15,C32,C67,C50,C37,C80;high;"Very broad regimen; main list restricted to the indications where carboplatin/paclitaxel is the standard backbone.";DG05;PC ohne Bevacizumab,CROSS;partly resolvable by entity;PC,PC mit Bevacizumab,Pembro + Carbo/Paclitaxel;FALSE
+20;CEV;Carboplatin;Etoposid;Vincristin;NA;NA;NA;NA;C69,C74,C34;C40,C41,C49;C69,C74,C34;C40,C41,C49;low;AMBIGUOUS: carboplatin/etoposide/vincristine is the retinoblastoma and neuroblastoma backbone, but CEV is also a German SCLC schedule. Please confirm which is meant.;;;unique;;FALSE
+21;CHOEP;Cyclophosphamid;Doxorubicin;Etoposid;Vincristin;Prednison;NA;NA;C83,C84,C85,C86;C82,C88;C77;C77;high;"CHOP plus etoposide; preferred in T-cell lymphoma.";DG06;EPOCH;partly resolvable by entity;BEACOPP,EPOCH-R;FALSE
+22;CHOP;Cyclophosphamid;Doxorubicin;Vincristin;Prednison;NA;NA;NA;C82,C83,C84,C85;C86,C88,C91,C37;C77;C77,C42,C37;high;;;;unique;BEACOPP,CHOEP,EPOCH,EPOCH-R,R-CHOP;FALSE
+23;CMF;Cyclophosphamid;Fluorouracil;Methotrexat;NA;NA;NA;NA;C50;;C50;;high;;;;unique;;FALSE
+24;COPP;Cyclophosphamid;Procarbazin;Vincristin;Prednison;NA;NA;NA;C81;C83,C85;C77;C77;high;;;;unique;BEACOPP;FALSE
+25;CV;Cisplatin;Vinorelbin;NA;NA;NA;NA;NA;C34;C33,C50,C45;C34;C33,C50,C45;medium;Cisplatin/vinorelbine: NSCLC.;;;unique;;FALSE
+26;DA;Cytarabin;Daunorubicin;NA;NA;NA;NA;NA;C92;C91,C93,C94,D46;C42;C42,D46;medium;Read as '7+3' daunorubicin/cytarabine induction for AML. D46 in secondary - drop if D-codes are out of scope.;;;unique;TAD;FALSE
+27;DAC;Cyclophosphamid;Docetaxel;Doxorubicin;NA;NA;NA;NA;C50;;C50;;high;Equivalent to TAC.;DG07;TAC;not resolvable by entity;;FALSE
+28;DC (Doce/Carbo);Carboplatin;Docetaxel;NA;NA;NA;NA;NA;C50,C56,C34;C57,C48,C54,C15,C01,C02,C03,C04,C05,C06,C09,C10,C13,C14,C32;C50,C56,C34;C57,C48,C54,C15,C01,C02,C03,C04,C05,C06,C09,C10,C13,C14,C32;medium;;;;unique;DCbH,TCH;FALSE
+29;DC (Doce/Cyclo);Cyclophosphamid;Docetaxel;NA;NA;NA;NA;NA;C50;;C50;;high;TC regimen.;;;unique;DAC,EC-D,FEC-Doc,TAC;FALSE
+30;DCbH;Carboplatin;Docetaxel;Trastuzumab;NA;NA;NA;NA;C50;C16;C50;C16;high;"TCH; HER2-directed.";DG08;TCH;not resolvable by entity;;FALSE
+31;DeVIC;Carboplatin;Etoposid;Ifosfamid;Dexamethason;NA;NA;NA;C86,C83,C85;C82,C84,C81;C11,C30,C77;C77;medium;Used with radiotherapy in NK/T-cell lymphoma and as salvage in aggressive NHL.;DG09;VIPD;partly resolvable by entity;R-DeVIC;FALSE
+32;Dexa-BEAM;Carmustin;Cytarabin;Etoposid;Melphalan;Dexamethason;NA;NA;C81,C83,C85;C82,C84;C77;C77;high;Salvage/mobilisation.;;;unique;;FALSE
+33;DHAP;Cisplatin;Cytarabin;Dexamethason;NA;NA;NA;NA;C81,C83,C85;C82,C84,C86,C88;C77;C77;high;Second-line lymphoma.;;;unique;R-DHAP;FALSE
+34;DRC;Cyclophosphamid;Rituximab;Dexamethason;NA;NA;NA;NA;C88;C82,C83,C85;C77;C77;high;Waldenstroem / marginal zone.;;;unique;;FALSE
+35;DVP;Cisplatin;Dacarbazin;Vindesin;NA;NA;NA;NA;C43;C69;C43;C69;medium;Melanoma.;;;unique;;FALSE
+36;EC;Cyclophosphamid;Epirubicin;NA;NA;NA;NA;NA;C50;C34,C49,C40,C41;C50;C34,C49,C40,C41;high;;;;unique;EC-D,EC-P,FEC,FEC-Doc;FALSE
+37;EC-D;Cyclophosphamid;Docetaxel;Epirubicin;NA;NA;NA;NA;C50;;C50;;high;;;;unique;FEC-Doc;FALSE
+38;ECF;Cisplatin;Epirubicin;Fluorouracil;NA;NA;NA;NA;C16,C15;C22,C23,C24,C25;C16,C15;C22,C23,C24,C25;high;;;;unique;;FALSE
+39;EC-P;Cyclophosphamid;Epirubicin;Paclitaxel;NA;NA;NA;NA;C50;;C50;;high;;;;unique;;FALSE
+40;ELO-Rd;Elotuzumab;Lenalidomid;Dexamethason;NA;NA;NA;NA;C90;;C42;;high;;;;unique;;FALSE
+41;EOX;Capecitabin;Epirubicin;Oxaliplatin;NA;NA;NA;NA;C16,C15;C22,C23,C24;C16,C15;C22,C23,C24;high;;;;unique;;FALSE
+42;EXTREME mit Carboplatin;Carboplatin;Cetuximab;Fluorouracil;NA;NA;NA;NA;C01,C02,C03,C04,C05,C06,C09,C10,C13,C14,C32;C00,C07,C08,C11,C12,C30,C31,C15;C01,C02,C03,C04,C05,C06,C09,C10,C13,C14,C32;C00,C07,C08,C11,C12,C30,C31,C15;high;Recurrent/metastatic head and neck SCC.;;;unique;;FALSE
+43;EXTREME mit Cisplatin;Cetuximab;Cisplatin;Fluorouracil;NA;NA;NA;NA;C01,C02,C03,C04,C05,C06,C09,C10,C13,C14,C32;C00,C07,C08,C11,C12,C30,C31,C15;C01,C02,C03,C04,C05,C06,C09,C10,C13,C14,C32;C00,C07,C08,C11,C12,C30,C31,C15;high;Recurrent/metastatic head and neck SCC.;;;unique;;FALSE
+44;FAC;Cyclophosphamid;Doxorubicin;Flurouracil;NA;NA;NA;NA;C50;;C50;;high;;;;unique;;FALSE
+45;FC;Cyclophosphamid;Fludarabin;NA;NA;NA;NA;NA;C91;C82,C83,C88;C42;C77;high;;;;unique;FCR;FALSE
+46;FCR;Cyclophosphamid;Flurarabin;Rituximab;NA;NA;NA;NA;C91;C82,C83,C88;C42;C77;high;;;;unique;;FALSE
+47;FEC;Cyclophosphamid;Epirubicin;Fluorouracil;NA;NA;NA;NA;C50;;C50;;high;;;;unique;FEC-Doc;FALSE
+48;FEC-Doc;Cyclophosphamid;Docetaxel;Epirubicin;Fluorouracil;NA;NA;NA;C50;;C50;;high;;;;unique;;FALSE
+49;FLAG-Ida;Cytarabin;Fludarabin;Idarubicin;Lenogastrim;NA;NA;NA;C92;C91,C93,D46;C42;C42,D46;high;AML induction/salvage. D46 in secondary - drop if D-codes are out of scope.;;;unique;;FALSE
+50;FLO;Fluorouracil;Folinsäure;Oxaliplatin;NA;NA;NA;NA;C16,C15;C18,C19,C20,C25;C16,C15;C18,C19,C20,C25;high;German AIO gastric regimen.;DG10;FOLFOX,FUFOX;resolvable by entity;FLOT,FOLFOX + Bevacizumab,FOLFOX + Panitumumab,FOLFOXIRI,Folfirinox;FALSE
+51;FLOT;Docetaxel;Fluorouracil;Folinsäure;Oxaliplatin;NA;NA;NA;C16,C15;C17,C25;C16,C15;C17,C25;high;Perioperative gastric/GEJ standard.;;;unique;;FALSE
+52;Flu-Cam;Alemtuzumab;Fludarabin;NA;NA;NA;NA;NA;C91;C84;C42;C77;medium;"CLL; also T-PLL.";;;unique;;FALSE
+53;FOLFIRI;Fluorouracil;Folinsäure;Irinotecan;NA;NA;NA;NA;C18,C19,C20;C16,C25,C22,C23,C24;C18,C19,C20;C16,C25,C22,C23,C24;high;;DG02;AIO-Irinotecan,FUFIRI;not resolvable by entity;FOLFIRI + Bevacizumab,FOLFIRI + Cetuximab,FOLFOXIRI,Folfirinox;FALSE
+54;Folfirinox;Fluorouracil;Folinsäure;Irinotecan;Oxaliplatin;NA;NA;NA;C25;C22,C23,C24,C18,C19,C20;C25;C22,C23,C24,C18,C19,C20;high;Pancreatic adenocarcinoma.;DG11;FOLFOXIRI;resolvable by entity;;FALSE
+55;FOLFOX;Fluorouracil;Folinsäure;Oxaliplatin;NA;NA;NA;NA;C18,C19,C20;C16,C15,C25,C22,C23,C24;C18,C19,C20;C16,C15,C25,C22,C23,C24;high;;DG10;FLO,FUFOX;partly resolvable by entity;FLOT,FOLFOX + Bevacizumab,FOLFOX + Panitumumab,FOLFOXIRI,Folfirinox;FALSE
+56;FOLFOXIRI;Fluorouracil;Folinsäure;Irinotecan;Oxaliplatin;NA;NA;NA;C18,C19,C20;C16,C25;C18,C19,C20;C16,C25;high;;DG11;Folfirinox;resolvable by entity;;FALSE
+57;FUFAMI;Flurouracil;Folinsäure;Mitomycin;NA;NA;NA;NA;C18,C19,C20;C21,C16;C18,C19,C20;C21,C16;medium;;;;unique;;FALSE
+58;FUFIRI;Fluorouracil;Folinsäure;Irinotecan;NA;NA;NA;NA;C18,C19,C20;C16;C18,C19,C20;C16;high;;DG02;AIO-Irinotecan,FOLFIRI;not resolvable by entity;FOLFIRI + Bevacizumab,FOLFIRI + Cetuximab,FOLFOXIRI,Folfirinox;FALSE
+59;FUFOX;Fluorouracil;Folinsäure;Oxaliplatin;NA;NA;NA;NA;C18,C19,C20;C16,C15;C18,C19,C20;C16,C15;high;;DG10;FLO,FOLFOX;partly resolvable by entity;FLOT,FOLFOX + Bevacizumab,FOLFOX + Panitumumab,FOLFOXIRI,Folfirinox;FALSE
+60;GC-B;Bevacizumab;Carboplatin;Gemcitabin;NA;NA;NA;NA;C56,C57,C48;C34;C56,C57,C48;C34;high;Platinum-sensitive recurrent ovarian cancer.;;;unique;;FALSE
+61;GDP-Schema;Cisplatin;Gemcitabin;Dexamethason;NA;NA;NA;NA;C81,C83,C85;C82,C84,C86;C77;C77;high;Salvage lymphoma.;;;unique;;FALSE
+62;GELOX;Asparaginase;Gemcitabin;Oxaliplatin;NA;NA;NA;NA;C86;C84;C11,C30;C77;high;Extranodal NK/T-cell lymphoma, nasal type.;DG12;P-GEMOX;not resolvable by entity;;FALSE
+63;Gem-Carbo;Carboplatin;Gemcitabin;NA;NA;NA;NA;NA;C67,C65,C66,C68,C34,C56;C50,C45,C57,C48,C22,C23,C24;C34,C56,C67;C50,C45,C57,C48,C22,C23,C24;medium;;DG13;GC (Gem/Carbo);not resolvable by entity;GC-B;FALSE
+64;Gem-Cis;Cisplatin;Gemcitabin;NA;NA;NA;NA;NA;C67,C65,C66,C68,C22,C23,C24,C34;C25,C45,C53,C11,C65,C66;C22,C23,C24,C67,C34;C25,C45,C53,C11,C65,C66;high;;DG14;GC (Gem/Cis);not resolvable by entity;Durvalumab + Gem/Cis,GDP-Schema;FALSE
+65;GemTreo;Gemcitabin;Treosulfan;NA;NA;NA;NA;NA;C69,C43;C56;C69,C43;C56;low;"AMBIGUOUS: read as gemcitabine/treosulfan for metastatic uveal melanoma (C69.4); treosulfan is also used in ovarian cancer and as conditioning. Please confirm.";;;unique;;FALSE
+66;GOP;Gemcitabin;Oxaliplatin;Paclitaxel;NA;NA;NA;NA;C22,C23,C24,C25;C86;C22,C23,C24,C25;C77;low;UNCERTAIN: gemcitabine/oxaliplatin/paclitaxel does not map to a single well-established German protocol. Best guess is hepatobiliary/pancreatic. Please confirm.;;;unique;;FALSE
+67;HAM-Cytarabin;Cytarabin;Mitoxantron;NA;NA;NA;NA;NA;C92;C91,C93,D46;C42;C42,D46;medium;Read as HAM (high-dose cytarabine + mitoxantrone) for AML. D46 in secondary - drop if D-codes are out of scope.;DG15;S-HAM;not resolvable by entity;MAV;FALSE
+68;HD-Protokoll;BCNU;Rituximab;Thiotepa;NA;NA;NA;NA;C83;C85,C82;C71;C77;low;AMBIGUOUS name. BCNU/thiotepa/rituximab reads as high-dose conditioning for primary CNS lymphoma - topography therefore C71, not C77. Please confirm.;;;unique;;FALSE
+69;ICE;Carboplatin;Etoposid;Ifosfamid;NA;NA;NA;NA;C81,C83,C85;C34,C40,C41,C49,C62,C84,C86;C77;C34,C40,C41,C49,C62,C77;high;;;;unique;DeVIC,R-DeVIC,R-ICE,VIPD;FALSE
+70;IEV;Epirubicin;Etoposid;Ifosfamid;NA;NA;NA;NA;C81,C83,C85;C49,C40,C41;C77;C49,C40,C41;medium;;;;unique;;FALSE
+71;IMVP-16;Etoposid;Ifosfamid;Methotrexat;NA;NA;NA;NA;C83,C85;C81,C84;C77;C77;medium;;;;unique;SMILE;FALSE
+72;IRd;Ixazomib;Lenalidomid;Dexamethason;NA;NA;NA;NA;C90;;C42;;high;;;;unique;;FALSE
+73;Knospe;Chlorambucil;Prednison;NA;NA;NA;NA;NA;C91;C82,C83,C88;C42;C77;high;Chlorambucil/prednisone, CLL.;;;unique;R-MCP;FALSE
+74;Knospe modifiziert;Chlorambucil;Rituximab;NA;NA;NA;NA;NA;C91;C82,C88;C42;C77;high;;;;unique;R-MCP;FALSE
+75;KRD;Carfilzomib;Lenalidomid;Dexamethason;NA;NA;NA;NA;C90;;C42;;high;;;;unique;;FALSE
+76;LV5FU2;Fluorouracil;Folinsäure;NA;NA;NA;NA;NA;C18,C19,C20;C16,C25,C22,C23,C24,C21;C18,C19,C20;C16,C25,C22,C23,C24,C21;high;;DG01;AIO,Mayo-Protokoll;not resolvable by entity;AIO-Irinotecan,FLO,FLOT,FOLFIRI,FOLFIRI + Bevacizumab,FOLFIRI + Cetuximab,FOLFOX,FOLFOX + Bevacizumab,FOLFOX + Panitumumab,FOLFOXIRI,FUFAMI,FUFIRI,FUFOX,Folfirinox,PLF,nal-IRI + 5-FU/FA;FALSE
+77;MAMAC;Amsacrin;Cytarabin;NA;NA;NA;NA;NA;C92;C91;C42;C42;medium;Amsacrine/cytarabine, AML salvage.;;;unique;;FALSE
+78;MATRix;Cytarabin;Methotrexat;Rituximab;Thiotepa;NA;NA;NA;C83;C85;C71;C77;high;Primary CNS lymphoma - topography C71, not C77.;;;unique;;FALSE
+79;MAV;Cytarabin;Etoposid;Mitoxantron;NA;NA;NA;NA;C92;C91,D46;C42;C42,D46;medium;;;;unique;;FALSE
+80;Mayo-Protokoll;Fluorouracil;Folinsäure;NA;NA;NA;NA;NA;C18,C19,C20;C16;C18,C19,C20;C16;high;;DG01;AIO,LV5FU2;not resolvable by entity;AIO-Irinotecan,FLO,FLOT,FOLFIRI,FOLFIRI + Bevacizumab,FOLFIRI + Cetuximab,FOLFOX,FOLFOX + Bevacizumab,FOLFOX + Panitumumab,FOLFOXIRI,FUFAMI,FUFIRI,FUFOX,Folfirinox,PLF,nal-IRI + 5-FU/FA;FALSE
+81;M-Cavi;Carboplatin;Methotrexat;Vinblastin;NA;NA;NA;NA;C67,C65,C66,C68;;C67,C65,C66,C68;;high;Urothelial carcinoma, cisplatin-unfit.;;;unique;;FALSE
+82;MPT;Melphalan;Thalidomid;Prednison;NA;NA;NA;NA;C90;;C42;;high;AL amyloidosis (E85) excluded as non-malignant.;;;unique;;FALSE
+83;M-VAC;Cisplatin;Doxorubicin;Methotrexat;Vinblastin;NA;NA;NA;C67,C65,C66,C68;;C67,C65,C66,C68;;high;;;;unique;;FALSE
+84;PAC;Cisplatin;Cyclophosphamid;Doxorubicin;NA;NA;NA;NA;C56,C54;C57,C48,C49;C56,C54;C57,C48,C49;medium;;;;unique;;FALSE
+85;PC;Bevacizumab;Carboplatin;Paclitaxel;NA;NA;NA;NA;C56,C57,C48,C34;C53,C54,C50;C56,C57,C48,C34;C53,C54,C50;low;AMBIGUOUS: identical substance list to 'PC mit Bevacizumab' (row 86). Please clarify how the two differ.;DG16;PC mit Bevacizumab;not resolvable by entity;;FALSE
+86;PC mit Bevacizumab;Bevacizumab;Carboplatin;Paclitaxel;NA;NA;NA;NA;C56,C57,C48,C34;C53,C54,C18,C19,C20;C56,C57,C48,C34;C53,C54,C18,C19,C20;high;;DG16;PC;not resolvable by entity;;FALSE
+87;PC ohne Bevacizumab;Carboplatin;Paclitaxel;NA;NA;NA;NA;NA;C56,C57,C48,C34,C54;C53,C15,C32,C67,C50,C37,C80;C56,C57,C48,C34,C54;C53,C15,C32,C67,C50,C37,C80;high;;DG05;CarboTax,CROSS;partly resolvable by entity;PC,PC mit Bevacizumab,Pembro + Carbo/Paclitaxel;FALSE
+88;PCV;Lomustin;Procarbazin;Vincristin;NA;NA;NA;NA;C71;C70,C72;C71;C70,C72;high;Oligodendroglial / anaplastic glioma.;;;unique;;FALSE
+89;PE;Cisplatin;Etoposid;NA;NA;NA;NA;NA;C34;C37,C62,C56,C25,C80,C33;C34;C37,C62,C56,C25,C80,C33;high;SCLC and neuroendocrine carcinoma.;;;unique;PEB,PEI,VIP;FALSE
+90;PEB;Bleomycin;Cisplatin;Etoposid;NA;NA;NA;NA;C62;C56,C38,C48,C71;C62;C56,C38,C48,C71;high;BEP: germ cell tumours, gonadal and extragonadal.;;;unique;;FALSE
+91;Peg. DoxC;Carboplatin;Doxorubicin;NA;NA;NA;NA;NA;C56,C57,C48;C50,C54;C56,C57,C48;C50,C54;medium;Read as pegylated liposomal doxorubicin + carboplatin for platinum-sensitive recurrent ovarian cancer. Please confirm.;;;unique;;FALSE
+92;PEI;Cisplatin;Etoposid;Ifosfamid;NA;NA;NA;NA;C62;C34,C38,C48,C56,C49;C62;C34,C38,C48,C56,C49;high;VIP.;DG17;VIP;not resolvable by entity;;FALSE
+93;P-GEMOX;Asparaginase (peg);Gemcitabin;Oxaliplatin;NA;NA;NA;NA;C86;C84;C11,C30;C77;high;Extranodal NK/T-cell lymphoma.;DG12;GELOX;not resolvable by entity;;FALSE
+94;PLF;Cisplatin;Fluorouracil;Folinsäure;NA;NA;NA;NA;C16,C15;C01,C02,C03,C04,C05,C06,C09,C10,C13,C14,C32;C16,C15;C01,C02,C03,C04,C05,C06,C09,C10,C13,C14,C32;medium;;;;unique;;FALSE
+95;PVAG-Schema;Doxorubicin;Gemcitabin;Vinblastin;Prednison;NA;NA;NA;C81;;C77;;high;Hodgkin in elderly/comorbid patients.;;;unique;;FALSE
+96;PVBI;Cisplatin;Ifosfamid;Vinblastin;NA;NA;NA;NA;C62;C56,C38;C62;C56,C38;medium;Cisplatin/vinblastine/ifosfamide, germ cell.;DG18;VeIP;not resolvable by entity;;FALSE
+97;R-BAC;Bendamustin;Cytarabin;Rituximab;NA;NA;NA;NA;C83;C82,C85,C88;C77;C77;high;Mantle cell lymphoma.;;;unique;;FALSE
+98;R-Bendamustin;Bendamustin;Rituximab;NA;NA;NA;NA;NA;C82,C83,C88,C91;C85;C77,C42;C77;high;;DG03;BR;not resolvable by entity;R-BAC;FALSE
+99;R-CHOP;Cyclophosphamid;Doxorubicin;Vincristin;Rituximab;Prednison;NA;NA;C82,C83,C85;C88,C91,C86;C77;C77,C42;high;;;;unique;EPOCH-R;FALSE
+100;R-DeVIC;Carboplatin;Etoposid;Ifosfamid;Rituximab;Dexamethason;NA;NA;C83,C85;C82;C77;C77;medium;;;;unique;;FALSE
+101;R-DHAP;Cisplatin;Cytarabin;Rituximab;Dexamethason;NA;NA;NA;C83,C85,C82;C88,C91;C77;C77,C42;high;;;;unique;;FALSE
+102;RD-Schema;Lenalidomid;Dexamethason;NA;NA;NA;NA;NA;C90;C88,C82,D46;C42;C42,D46;high;Lenalidomide/dexamethasone. D46 in secondary covers del(5q) MDS - drop if D-codes are out of scope.;DG19;Rev/Dex;not resolvable by entity;D-Rd,ELO-Rd,IRd,KRD,VRD;FALSE
+103;Rev/Dex;Lenalidomid;Dexamethason;NA;NA;NA;NA;NA;C90;C88,C82,D46;C42;C42,D46;high;Duplicate of RD-Schema (row 102).;DG19;RD-Schema;not resolvable by entity;D-Rd,ELO-Rd,IRd,KRD,VRD;FALSE
+104;R-GemOx;Gemcitabin;Oxaliplatin;Rituximab;NA;NA;NA;NA;C83,C85;C82,C88;C77;C77;high;;;;unique;;FALSE
+105;R-HAD;Cytarabin;Rituximab;Dexamt;NA;NA;NA;NA;C83;C82,C85;C77;C77;medium;Relapsed mantle cell lymphoma.;;;unique;Instillation Intrathekal Quadrupel,R-DHAP;FALSE
+106;R-ICE;Carboplatin;Etoposid;Ifosfamid;Rituximab;NA;NA;NA;C83,C85;C82;C77;C77;high;;;;unique;R-DeVIC;FALSE
+107;R-MCP;Chlorambucil;Mitoxantron;Rituximab;Prednison;NA;NA;NA;C82,C83,C88;C91,C85;C77;C42,C77;high;;;;unique;;FALSE
+108;R-MP;Methotrexat;Procarbazin;Rituximab;NA;NA;NA;NA;C83;C85;C71;C77;medium;Rituximab/methotrexate/procarbazine: primary CNS lymphoma - topography C71.;;;unique;;FALSE
+109;S-HAI;Cytarabin;Idarubicin;G-CSF;NA;NA;NA;NA;C92;C91;C42;C42;medium;Read as sequential high-dose cytarabine + idarubicin + G-CSF for AML. Please confirm.;;;unique;FLAG-Ida;FALSE
+110;S-HAM;Cytarabin;Mitoxantron;G-CSF;NA;NA;NA;NA;C92;C91,D46;C42;C42,D46;high;;DG15;HAM-Cytarabin;not resolvable by entity;MAV;FALSE
+111;SMILE;Asparaginase;Etoposid;Ifosfamid;Methotrexat;Dexamethason;NA;NA;C86;C84;C11,C30;C77;high;Extranodal NK/T-cell lymphoma.;;;unique;;FALSE
+112;TAC;Cyclophosphamid;Docetaxel;Doxorubicin;NA;NA;NA;NA;C50;;C50;;high;;DG07;DAC;not resolvable by entity;;FALSE
+113;TCED;Cyclophosphamid;Etoposid;Thalidomid;Dexamethason;NA;NA;NA;C90;;C42;;medium;;;;unique;;FALSE
+114;TCH;Carboplatin;Docetaxel;Trastuzumab;NA;NA;NA;NA;C50;C16;C50;C16;high;;DG08;DCbH;not resolvable by entity;;FALSE
+115;TIP;Cisplatin;Ifosfamid;Paclitaxel;NA;NA;NA;NA;C62;C67,C65,C66,C56,C38,C01,C02,C03,C04,C05,C06,C09,C10,C13,C14,C32;C62;C67,C65,C66,C56,C38,C01,C02,C03,C04,C05,C06,C09,C10,C13,C14,C32;medium;"Relapsed germ cell; also urothelial.";;;unique;;FALSE
+116;TMZ;Temozolomid;NA;NA;NA;NA;NA;NA;C71;C70,C72,C43,C25,C75;C71;C70,C72,C43,C25,C75;high;;;;unique;CAPTEM;TRUE
+117;TPF;Cisplatin;Docetaxel;Fluorouracil;NA;NA;NA;NA;C01,C02,C03,C04,C05,C06,C09,C10,C13,C14,C32;C00,C07,C08,C11,C12,C30,C31,C15,C16;C01,C02,C03,C04,C05,C06,C09,C10,C13,C14,C32;C00,C07,C08,C11,C12,C30,C31,C15,C16;high;Induction chemotherapy, head and neck SCC.;;;unique;;FALSE
+118;VCD;Bortezomib;Cyclophoshamid;Dexamethason;NA;NA;NA;NA;C90;;C42;;high;;;;unique;;FALSE
+119;VFD;Bortezomib;Panobinostat;Dexamethason;NA;NA;NA;NA;C90;;C42;;high;Bortezomib/panobinostat/dexamethasone.;;;unique;;FALSE
+120;VIPD;Carboplatin;Etoposid;Ifosfamid;Dexamethason;NA;NA;NA;C86;C83,C85;C11,C30,C77;C77;medium;NK/T-cell lymphoma with radiotherapy.;DG09;DeVIC;partly resolvable by entity;R-DeVIC;FALSE
+121;VMP;Bortezomib;Melphalan;Prednison;NA;NA;NA;NA;C90;;C42;;high;;;;unique;D-VMP;FALSE
+122;VRD;Bortezomib;Lenalidomid;Dexamethason;NA;NA;NA;NA;C90;;C42;;high;;;;unique;;FALSE
+123;VTD;Bortezomib;Thalidomid;Dexamethason;NA;NA;NA;NA;C90;;C42;;high;;;;unique;D-VTd;FALSE
+124;XELOX;Capecitabin;Oxaliplatin;NA;NA;NA;NA;NA;C18,C19,C20,C16;C15,C25,C22,C23,C24;C18,C19,C20,C16;C15,C25,C22,C23,C24;high;;DG04;CAPOX;not resolvable by entity;EOX;FALSE
+125;XP;Capecitabin;Cisplatin;NA;NA;NA;NA;NA;C16,C15;C22,C23,C24,C11;C16,C15;C22,C23,C24,C11;high;;;;unique;;FALSE
+126;Instillation Intrathekal Tripel;Cytarabin;Methotrexat;Dexamethason;NA;NA;NA;NA;C91,C83,C85;C92,C84,C86,C50,C34;C70;C77,C42;medium;"CNS prophylaxis/treatment; topography is the meninges (C70) rather than the primary site.";;;unique;Instillation Intrathekal Quadrupel;FALSE
+127;Instillation Intrathekal Quadrupel;Cytarabin;Methotrexat;Dexamethason;Rituximab;NA;NA;NA;C83,C85,C91;C92,C84,C86;C70;C77,C42;medium;Rituximab-containing intrathecal quadruple therapy, B-cell lymphoma with CNS involvement.;;;unique;;FALSE
+128;GemOx;Gemcitabin;Oxaliplatin;NA;NA;NA;NA;NA;C22,C23,C24,C25;C83,C85,C84,C86,C16;C22,C23,C24,C25;C77,C16;high;"Biliary tract (intra-/extrahepatic cholangiocarcinoma, gallbladder) and pancreatic adenocarcinoma; alternative to Gem-Cis in cisplatin-unfit patients. Also used as a lymphoma salvage backbone. HCC covered by C22.";;;unique;GELOX,GOP,P-GEMOX,R-GemOx;FALSE
+129;GC (Gem/Cis);Cisplatin;Gemcitabin;NA;NA;NA;NA;NA;C67,C65,C66,C68,C22,C23,C24,C34;C25,C45,C53,C11;C67,C65,C66,C68,C22,C23,C24,C34;C25,C45,C53,C11;high;Urothelial carcinoma (the classic 'GC'), biliary tract and NSCLC. Same regimen as Gem-Cis (row 64) under a different name.;DG14;Gem-Cis;not resolvable by entity;Durvalumab + Gem/Cis,GDP-Schema;FALSE
+130;GC (Gem/Carbo);Carboplatin;Gemcitabin;NA;NA;NA;NA;NA;C67,C65,C66,C68,C34,C56;C50,C45,C57,C48,C22,C23,C24;C67,C65,C66,C68,C34,C56;C50,C45,C57,C48,C22,C23,C24;high;Carboplatin variant for cisplatin-unfit patients. Same regimen as Gem-Carbo (row 63) under a different name.;DG13;Gem-Carbo;not resolvable by entity;GC-B;FALSE
+131;EPOCH;Cyclophosphamid;Doxorubicin;Etoposid;Vincristin;Prednison;NA;NA;C83,C84,C85;C86,C82;C77;C77,C38;high;"Dose-adjusted infusional EPOCH. Substance set is identical to CHOEP (row 21); the difference is continuous infusion and dose adjustment. C38 in secondary topography covers primary mediastinal B-cell lymphoma.";DG06;CHOEP;partly resolvable by entity;BEACOPP,EPOCH-R;FALSE
+132;EPOCH-R;Cyclophosphamid;Doxorubicin;Etoposid;Vincristin;Rituximab;Prednison;NA;C83,C85;C82,C88,C91;C77;C77,C38;high;DA-EPOCH-R: DLBCL, primary mediastinal B-cell lymphoma, high-grade B-cell lymphoma with MYC/BCL2 rearrangement, Burkitt, HIV-associated lymphoma. C38 in secondary topography covers mediastinal presentation.;;;unique;;FALSE
+133;CarboPemPem;Carboplatin;Pemetrexed;NA;NA;NA;NA;NA;C34,C45;C48,C38,C33;C34,C45;C48,C38,C33;high;Carboplatin/pemetrexed induction followed by pemetrexed maintenance: non-squamous NSCLC and pleural mesothelioma. Pemetrexed appears once although it is given in both phases.;;;unique;Pembro + Carbo/Pem;FALSE
+134;VeIP;Cisplatin;Ifosfamid;Vinblastin;NA;NA;NA;NA;C62;C56,C38,C48;C62;C56,C38,C48;high;Vinblastin/Ifosfamid/Cisplatin: conventional-dose salvage for relapsed or refractory germ cell tumours, gonadal and extragonadal. Substance set is identical to PVBI (row 96), which is very likely this regimen under a garbled name. Mesna omitted for consistency with PEI/TIP/ICE.;DG18;PVBI;not resolvable by entity;;FALSE
+135;VIP;Cisplatin;Etoposid;Ifosfamid;NA;NA;NA;NA;C62;C34,C38,C48,C56,C49;C62;C34,C38,C48,C56,C49;high;"Etoposid(VP-16)/Ifosfamid/Cisplatin: germ cell tumours as salvage or first line where bleomycin is contraindicated; also SCLC and thymic tumours. Identical substance set to PEI (row 92) - same regimen, German vs. English acronym. CAUTION: in older literature VIP sometimes denotes the vinblastine-based schedule now called VeIP.";DG17;PEI;not resolvable by entity;;FALSE
+136;Paclitaxel mono;Paclitaxel;NA;NA;NA;NA;NA;NA;C50;C56,C57,C48,C34,C15;C50;C56,C57,C48,C34,C15;high;Weekly paclitaxel monotherapy.;;;unique;CROSS,CarboTax,EC-P,GOP,PC,PC mit Bevacizumab,PC ohne Bevacizumab,Paclitaxel/Cisplatin/Bevacizumab,Pembro + Carbo/Paclitaxel,Ramucirumab + Paclitaxel,TIP;TRUE
+137;nab-Paclitaxel mono;nab-Paclitaxel;NA;NA;NA;NA;NA;NA;C50;C34,C25;C50;C34,C25;high;"Albumin-bound paclitaxel; distinct product from conventional paclitaxel.";;;unique;Gem + nab-Paclitaxel;TRUE
+138;THP;Docetaxel;Trastuzumab;Pertuzumab;NA;NA;NA;NA;C50;;C50;;high;Docetaxel/Trastuzumab/Pertuzumab: first line in HER2-positive metastatic breast cancer.;;;unique;;FALSE
+139;T-DM1;Trastuzumab Emtansin;NA;NA;NA;NA;NA;NA;C50;;C50;;high;"Antibody-drug conjugate; adjuvant after non-pCR and in metastatic HER2-positive disease.";;;unique;;TRUE
+140;T-DXd;Trastuzumab Deruxtecan;NA;NA;NA;NA;NA;NA;C50;C16,C34;C50;C16,C34;high;Also used in HER2-low breast cancer and HER2-positive gastric cancer.;;;unique;;TRUE
+141;Eribulin;Eribulin;NA;NA;NA;NA;NA;NA;C50;C49;C50;C49;high;"Pretreated metastatic breast cancer; also liposarcoma.";;;unique;;TRUE
+142;Palbociclib + Letrozol;Palbociclib;Letrozol;NA;NA;NA;NA;NA;C50;;C50;;high;CDK4/6 inhibitor plus aromatase inhibitor, HR-positive/HER2-negative. Ribociclib and abemaciclib are used interchangeably in this position.;;;unique;;FALSE
+143;Ribociclib + Letrozol;Ribociclib;Letrozol;NA;NA;NA;NA;NA;C50;;C50;;high;CDK4/6 inhibitor plus aromatase inhibitor, HR-positive/HER2-negative.;;;unique;;FALSE
+144;Abemaciclib + Fulvestrant;Abemaciclib;Fulvestrant;NA;NA;NA;NA;NA;C50;;C50;;high;CDK4/6 inhibitor plus SERD after progression on endocrine therapy.;;;unique;;FALSE
+145;Olaparib;Olaparib;NA;NA;NA;NA;NA;NA;C50,C56,C61,C25;C57,C48;C50,C56,C61,C25;C57,C48;high;"PARP inhibitor; BRCA-mutated breast, ovarian, prostate and pancreatic cancer.";;;unique;;TRUE
+146;Niraparib;Niraparib;NA;NA;NA;NA;NA;NA;C56,C57,C48;;C56,C57,C48;;high;PARP maintenance in ovarian cancer.;;;unique;;TRUE
+147;Docetaxel + Prednison;Docetaxel;Prednison;NA;NA;NA;NA;NA;C61;;C61;;high;Given with ongoing androgen deprivation, in hormone-sensitive and castration-resistant disease.;;;unique;;FALSE
+148;Cabazitaxel + Prednison;Cabazitaxel;Prednison;NA;NA;NA;NA;NA;C61;;C61;;high;Castration-resistant prostate cancer after docetaxel.;;;unique;;FALSE
+149;Abirateron + Prednison;Abirateron;Prednison;NA;NA;NA;NA;NA;C61;;C61;;high;"Androgen biosynthesis inhibitor; given with androgen deprivation.";;;unique;;FALSE
+150;Enzalutamid;Enzalutamid;NA;NA;NA;NA;NA;NA;C61;;C61;;high;"Androgen receptor inhibitor; given with androgen deprivation.";;;unique;;TRUE
+151;PE-Carbo;Carboplatin;Etoposid;NA;NA;NA;NA;NA;C34;C37,C25,C80,C33;C34;C37,C25,C80,C33;high;Carboplatin/etoposide: SCLC and extrapulmonary neuroendocrine carcinoma.;;;unique;Atezolizumab + Carbo/Etoposid,CEV,DeVIC,Durvalumab + Platin/Etoposid,ICE,R-DeVIC,R-ICE,VIPD;FALSE
+152;Cis-Pem;Cisplatin;Pemetrexed;NA;NA;NA;NA;NA;C34,C45;C48,C38;C34,C45;C48,C38;high;Non-squamous NSCLC and pleural mesothelioma.;;;unique;;FALSE
+153;Topotecan mono;Topotecan;NA;NA;NA;NA;NA;NA;C34;C56,C57,C48,C53;C34;C56,C57,C48,C53;high;"Relapsed SCLC; also relapsed ovarian and cervical cancer.";;;unique;;TRUE
+154;Pembrolizumab mono;Pembrolizumab;NA;NA;NA;NA;NA;NA;C34,C43;C67,C65,C66,C68,C32,C09,C10,C15,C16,C18,C22,C53,C80;C34,C43;C67,C65,C66,C68,C32,C09,C10,C15,C16,C18,C22,C53,C80;high;"PD-1 inhibitor across many entities; also approved tissue-agnostically for MSI-high/dMMR and TMB-high tumours, so the secondary list is not exhaustive.";;;unique;EV + Pembrolizumab,Pembro + Carbo/Paclitaxel,Pembro + Carbo/Pem,Pembro + Platin/5-FU,Pembrolizumab + Axitinib;TRUE
+155;Nivolumab mono;Nivolumab;NA;NA;NA;NA;NA;NA;C34,C43,C64;C32,C09,C10,C15,C16,C67,C22,C81,C45;C34,C43,C64;C32,C09,C10,C15,C16,C67,C22,C77,C45;high;"PD-1 inhibitor; broad indication range including adjuvant use in oesophageal and urothelial cancer.";;;unique;Nivolumab + Ipilimumab;TRUE
+156;Pembro + Carbo/Pem;Pembrolizumab;Carboplatin;Pemetrexed;NA;NA;NA;NA;C34;;C34;;high;First line in metastatic non-squamous NSCLC (KEYNOTE-189).;;;unique;;FALSE
+157;Pembro + Carbo/Paclitaxel;Pembrolizumab;Carboplatin;Paclitaxel;NA;NA;NA;NA;C34;C53;C34;C53;high;First line in metastatic squamous NSCLC (KEYNOTE-407).;;;unique;;FALSE
+158;Atezolizumab + Carbo/Etoposid;Atezolizumab;Carboplatin;Etoposid;NA;NA;NA;NA;C34;;C34;;high;First line in extensive-stage SCLC (IMpower133).;;;unique;;FALSE
+159;Durvalumab + Platin/Etoposid;Durvalumab;Carboplatin;Etoposid;NA;NA;NA;NA;C34;;C34;;high;"First line in extensive-stage SCLC (CASPIAN); cisplatin may replace carboplatin.";;;unique;;FALSE
+160;Durvalumab mono;Durvalumab;NA;NA;NA;NA;NA;NA;C34;C22,C23,C24;C34;C22,C23,C24;high;Consolidation after chemoradiotherapy in stage III NSCLC (PACIFIC).;;;unique;Durvalumab + Gem/Cis,Durvalumab + Platin/Etoposid;TRUE
+161;Osimertinib;Osimertinib;NA;NA;NA;NA;NA;NA;C34;;C34;;high;"Third-generation EGFR TKI; EGFR-mutated NSCLC.";;;unique;;TRUE
+162;Alectinib;Alectinib;NA;NA;NA;NA;NA;NA;C34;;C34;;high;"ALK inhibitor; ALK-rearranged NSCLC.";;;unique;;TRUE
+163;Nivolumab + Ipilimumab;Nivolumab;Ipilimumab;NA;NA;NA;NA;NA;C43,C64;C45,C18,C19,C20,C22,C34,C69;C43,C64;C45,C18,C19,C20,C22,C34,C69;high;Dual checkpoint blockade: melanoma, renal cell carcinoma, mesothelioma, MSI-high colorectal cancer, hepatocellular carcinoma.;;;unique;;FALSE
+164;Dabrafenib + Trametinib;Dabrafenib;Trametinib;NA;NA;NA;NA;NA;C43;C34,C71,C73;C43;C34,C71,C73;high;BRAF/MEK inhibition in BRAF V600-mutated tumours.;;;unique;;FALSE
+165;Encorafenib + Binimetinib;Encorafenib;Binimetinib;NA;NA;NA;NA;NA;C43;C18,C19,C20;C43;C18,C19,C20;high;"BRAF/MEK inhibition; encorafenib plus cetuximab is the colorectal variant.";;;unique;;FALSE
+166;DTIC mono;Dacarbazin;NA;NA;NA;NA;NA;NA;C43;C49,C81;C43;C49,C77;medium;"Dacarbazine monotherapy; largely superseded by immunotherapy and targeted therapy.";;;unique;A+AVD,ABVD,AVD,BOLD,BrECADD,DVP;TRUE
+167;Pembrolizumab + Axitinib;Pembrolizumab;Axitinib;NA;NA;NA;NA;NA;C64;;C64;;high;First line in advanced renal cell carcinoma.;;;unique;;FALSE
+168;Sunitinib;Sunitinib;NA;NA;NA;NA;NA;NA;C64;C17,C16,C18,C25;C64;C17,C16,C18,C25;high;"Renal cell carcinoma; also imatinib-resistant GIST and pancreatic neuroendocrine tumours.";;;unique;;TRUE
+169;Cabozantinib;Cabozantinib;NA;NA;NA;NA;NA;NA;C64;C22,C73;C64;C22,C73;high;Renal cell carcinoma, hepatocellular carcinoma, medullary thyroid carcinoma.;;;unique;;TRUE
+170;Pazopanib;Pazopanib;NA;NA;NA;NA;NA;NA;C64,C49;C48;C64,C49;C48;high;Renal cell carcinoma and pretreated soft tissue sarcoma.;;;unique;;TRUE
+171;Gem + nab-Paclitaxel;Gemcitabin;nab-Paclitaxel;NA;NA;NA;NA;NA;C25;;C25;;high;First-line standard in metastatic pancreatic adenocarcinoma.;;;unique;;FALSE
+172;nal-IRI + 5-FU/FA;Irinotecan liposomal;Fluorouracil;Folinsäure;NA;NA;NA;NA;C25;;C25;;high;Liposomal irinotecan after gemcitabine-based therapy. Distinct product from conventional irinotecan.;;;unique;;FALSE
+173;Ramucirumab + Paclitaxel;Ramucirumab;Paclitaxel;NA;NA;NA;NA;NA;C16,C15;;C16,C15;;high;Second-line standard in advanced gastric and gastro-oesophageal junction cancer.;;;unique;;FALSE
+174;Atezolizumab + Bevacizumab;Atezolizumab;Bevacizumab;NA;NA;NA;NA;NA;C22;;C22;;high;First line in unresectable hepatocellular carcinoma (IMbrave150).;;;unique;;FALSE
+175;Sorafenib;Sorafenib;NA;NA;NA;NA;NA;NA;C22;C73,C64;C22;C73,C64;high;"Hepatocellular carcinoma; also radioiodine-refractory thyroid carcinoma.";;;unique;;TRUE
+176;Lenvatinib;Lenvatinib;NA;NA;NA;NA;NA;NA;C22,C73;C54,C64;C22,C73;C54,C64;high;"Hepatocellular and thyroid carcinoma; with pembrolizumab in endometrial carcinoma.";;;unique;;TRUE
+177;Durvalumab + Gem/Cis;Durvalumab;Gemcitabin;Cisplatin;NA;NA;NA;NA;C22,C23,C24;;C22,C23,C24;;high;First line in advanced biliary tract cancer (TOPAZ-1).;;;unique;;FALSE
+178;CAPTEM;Capecitabin;Temozolomid;NA;NA;NA;NA;NA;C25,C17;C34,C18,C73;C25,C17;C34,C18,C73;high;Neuroendocrine tumours, especially pancreatic.;;;unique;;FALSE
+179;Streptozotocin + 5-FU;Streptozotocin;Fluorouracil;NA;NA;NA;NA;NA;C25;C17;C25;C17;high;Well-differentiated pancreatic neuroendocrine tumours.;;;unique;;FALSE
+180;Imatinib;Imatinib;NA;NA;NA;NA;NA;NA;C92,C16,C17;C91,C18,C48,C49;C42,C16,C17;C42,C18,C48,C49;high;"CML and Philadelphia-positive ALL; also GIST, where the topography is stomach or small intestine rather than C42.";;;unique;;TRUE
+181;Nilotinib;Nilotinib;NA;NA;NA;NA;NA;NA;C92;C91;C42;C42;high;Second-generation BCR-ABL TKI.;;;unique;;TRUE
+182;Dasatinib;Dasatinib;NA;NA;NA;NA;NA;NA;C92;C91;C42;C42;high;Second-generation BCR-ABL TKI.;;;unique;;TRUE
+183;FOLFOX + Bevacizumab;Fluorouracil;Folinsäure;Oxaliplatin;Bevacizumab;NA;NA;NA;C18,C19,C20;C16;C18,C19,C20;C16;high;;;;unique;;FALSE
+184;FOLFIRI + Bevacizumab;Fluorouracil;Folinsäure;Irinotecan;Bevacizumab;NA;NA;NA;C18,C19,C20;;C18,C19,C20;;high;;;;unique;;FALSE
+185;FOLFIRI + Cetuximab;Fluorouracil;Folinsäure;Irinotecan;Cetuximab;NA;NA;NA;C18,C19,C20;;C18,C19,C20;;high;RAS wild-type, left-sided primary.;;;unique;;FALSE
+186;FOLFOX + Panitumumab;Fluorouracil;Folinsäure;Oxaliplatin;Panitumumab;NA;NA;NA;C18,C19,C20;;C18,C19,C20;;high;RAS wild-type.;;;unique;;FALSE
+187;Trifluridin/Tipiracil;Trifluridin;Tipiracil;NA;NA;NA;NA;NA;C18,C19,C20;C16;C18,C19,C20;C16;high;Refractory colorectal and gastric cancer.;;;unique;;FALSE
+188;Regorafenib;Regorafenib;NA;NA;NA;NA;NA;NA;C18,C19,C20;C17,C16,C22;C18,C19,C20;C17,C16,C22;high;Refractory colorectal cancer, GIST and hepatocellular carcinoma.;;;unique;;TRUE
+189;Nigro;Fluorouracil;Mitomycin;NA;NA;NA;NA;NA;C21;;C21;;high;5-FU/mitomycin C with concurrent radiotherapy: definitive treatment of anal carcinoma.;;;unique;FUFAMI;FALSE
+190;CROSS;Carboplatin;Paclitaxel;NA;NA;NA;NA;NA;C15;C16;C15;C16;high;"Neoadjuvant carboplatin/paclitaxel with radiotherapy. Substance set is identical to CarboTax; the difference is the concurrent radiotherapy and the weekly low-dose schedule.";DG05;CarboTax,PC ohne Bevacizumab;resolvable by entity;PC,PC mit Bevacizumab,Pembro + Carbo/Paclitaxel;FALSE
+191;PF;Cisplatin;Fluorouracil;NA;NA;NA;NA;NA;C01,C02,C03,C04,C05,C06,C09,C10,C13,C14,C32;C00,C07,C08,C11,C12,C30,C31,C15,C16;C01,C02,C03,C04,C05,C06,C09,C10,C13,C14,C32;C00,C07,C08,C11,C12,C30,C31,C15,C16;high;Cisplatin/5-FU, the backbone of EXTREME without cetuximab.;;;unique;ECF,EXTREME mit Cisplatin,PLF,Pembro + Platin/5-FU,TPF;FALSE
+192;Cisplatin + RT;Cisplatin;NA;NA;NA;NA;NA;NA;C01,C02,C03,C04,C05,C06,C09,C10,C13,C14,C32,C53;C15,C33,C34;C01,C02,C03,C04,C05,C06,C09,C10,C13,C14,C32,C53;C15,C33,C34;high;Single-agent cisplatin concurrent with radiotherapy: definitive or adjuvant chemoradiotherapy in head and neck and cervical cancer.;;;unique;CV,Cis-Pem,DHAP,DVP,Durvalumab + Gem/Cis,ECF,EXTREME mit Cisplatin,GC (Gem/Cis),GDP-Schema,Gem-Cis,M-VAC,MAP,PAC,PE,PEB,PEI,PF,PLF,PVBI,Paclitaxel/Cisplatin/Bevacizumab,Pembro + Platin/5-FU,R-DHAP,TIP,TPF,VIP,VeIP,XP;TRUE
+193;Pembro + Platin/5-FU;Pembrolizumab;Cisplatin;Fluorouracil;NA;NA;NA;NA;C01,C02,C03,C04,C05,C06,C09,C10,C13,C14,C32;C00,C07,C08,C11,C12,C30,C31;C01,C02,C03,C04,C05,C06,C09,C10,C13,C14,C32;C00,C07,C08,C11,C12,C30,C31;high;First line in recurrent or metastatic head and neck SCC (KEYNOTE-048).;;;unique;;FALSE
+194;Paclitaxel/Cisplatin/Bevacizumab;Paclitaxel;Cisplatin;Bevacizumab;NA;NA;NA;NA;C53;;C53;;high;Advanced or recurrent cervical cancer (GOG-240).;;;unique;;FALSE
+195;Avelumab Erhaltung;Avelumab;NA;NA;NA;NA;NA;NA;C67,C65,C66,C68;;C67,C65,C66,C68;;high;Switch maintenance after platinum-based first line in urothelial carcinoma.;;;unique;;TRUE
+196;EV + Pembrolizumab;Enfortumab Vedotin;Pembrolizumab;NA;NA;NA;NA;NA;C67,C65,C66,C68;;C67,C65,C66,C68;;high;First line in advanced urothelial carcinoma (EV-302).;;;unique;;FALSE
+197;Carboplatin mono;Carboplatin;NA;NA;NA;NA;NA;NA;C56,C57,C48;C34,C50,C62;C56,C57,C48;C34,C50,C62;high;;;;unique;Atezolizumab + Carbo/Etoposid,CEV,CROSS,CarboPemPem,CarboTax,DC (Doce/Carbo),DCbH,DeVIC,Durvalumab + Platin/Etoposid,EXTREME mit Carboplatin,GC (Gem/Carbo),GC-B,Gem-Carbo,ICE,M-Cavi,PC,PC mit Bevacizumab,PC ohne Bevacizumab,PE-Carbo,Peg. DoxC,Pembro + Carbo/Paclitaxel,Pembro + Carbo/Pem,R-DeVIC,R-ICE,TCH,VIPD;TRUE
+198;PLD mono;Doxorubicin liposomal;NA;NA;NA;NA;NA;NA;C56,C57,C48;C50,C46;C56,C57,C48;C50,C46;high;Pegylated liposomal doxorubicin: recurrent ovarian cancer, also breast cancer and Kaposi sarcoma. Distinct product from conventional doxorubicin.;;;unique;;TRUE
+199;Gem-Doce;Gemcitabin;Docetaxel;NA;NA;NA;NA;NA;C49;C54,C48,C40,C41;C49;C54,C48,C40,C41;high;Gemcitabine/docetaxel, particularly in leiomyosarcoma.;;;unique;;FALSE
+200;Doxorubicin mono;Doxorubicin;NA;NA;NA;NA;NA;NA;C49,C48;C40,C41,C50,C54;C49,C48;C40,C41,C50,C54;high;Standard first line in advanced soft tissue sarcoma.;;;unique;A+AVD,ABVD,AC,ACO,ADR-IFO,AVD,BEACOPP,BrECADD,CAD,CHOEP,CHOP,DAC,EPOCH,EPOCH-R,FAC,Hyper-CVAD,M-VAC,MAP,PAC,PVAG-Schema,Peg. DoxC,Pola-R-CHP,R-CHOP,TAC,VIDE;TRUE
+201;Trabectedin;Trabectedin;NA;NA;NA;NA;NA;NA;C49;C48,C56;C49;C48,C56;high;Pretreated liposarcoma and leiomyosarcoma.;;;unique;;TRUE
+202;VIDE;Vincristin;Ifosfamid;Doxorubicin;Etoposid;NA;NA;NA;C40,C41,C49;C47;C40,C41,C49;C47;high;Induction in Ewing sarcoma (EURO-EWING).;;;unique;;FALSE
+203;VAC;Vincristin;Actinomycin D;Cyclophosphamid;NA;NA;NA;NA;C49;C40,C41,C57,C62,C56;C49;C40,C41,C57,C62,C56;high;"Rhabdomyosarcoma (CWS protocols); also gestational trophoblastic neoplasia.";;;unique;;FALSE
+204;MAP;Methotrexat;Doxorubicin;Cisplatin;NA;NA;NA;NA;C40,C41;C49;C40,C41;C49;high;Osteosarcoma (EURAMOS/COSS).;;;unique;M-VAC;FALSE
+205;Lomustin mono;Lomustin;NA;NA;NA;NA;NA;NA;C71;C70,C72;C71;C70,C72;high;Recurrent glioblastoma.;;;unique;BOLD,PCV;TRUE
+206;Bevacizumab mono;Bevacizumab;NA;NA;NA;NA;NA;NA;C71;C70,C72;C71;C70,C72;medium;"Recurrent glioblastoma; also used for symptomatic radiation necrosis.";;;unique;Atezolizumab + Bevacizumab,FOLFIRI + Bevacizumab,FOLFOX + Bevacizumab,GC-B,PC,PC mit Bevacizumab,Paclitaxel/Cisplatin/Bevacizumab;TRUE
+207;Azacitidin mono;Azacitidin;NA;NA;NA;NA;NA;NA;C92;C93,D46;C42;C42,D46;high;Higher-risk MDS and AML unfit for intensive therapy. D46 in secondary - drop if D-codes are out of scope.;;;unique;Azacitidin + Venetoclax;TRUE
+208;Azacitidin + Venetoclax;Azacitidin;Venetoclax;NA;NA;NA;NA;NA;C92;D46;C42;C42,D46;high;Standard for AML unfit for intensive induction. D46 in secondary - drop if D-codes are out of scope.;;;unique;;FALSE
+209;CPX-351;Cytarabin liposomal;Daunorubicin liposomal;NA;NA;NA;NA;NA;C92;D46;C42;C42,D46;high;Liposomal cytarabine/daunorubicin in therapy-related AML and AML with myelodysplasia-related changes. Distinct product from conventional DA.;;;unique;;FALSE
+210;TAD;Thioguanin;Cytarabin;Daunorubicin;NA;NA;NA;NA;C92;C91;C42;C42;high;AMLCG induction/consolidation.;;;unique;;FALSE
+211;ATRA + ATO;Tretinoin;Arsentrioxid;NA;NA;NA;NA;NA;C92;;C42;;high;Standard in acute promyelocytic leukaemia (ICD-10 C92.4).;;;unique;;FALSE
+212;AIDA;Tretinoin;Idarubicin;NA;NA;NA;NA;NA;C92;;C42;;high;ATRA plus idarubicin in high-risk acute promyelocytic leukaemia.;;;unique;;FALSE
+213;Blinatumomab;Blinatumomab;NA;NA;NA;NA;NA;NA;C91;;C42;;high;Bispecific T-cell engager in B-precursor ALL, including MRD-positive disease.;;;unique;;TRUE
+214;Hyper-CVAD;Cyclophosphamid;Vincristin;Doxorubicin;Dexamethason;Mesna;NA;NA;C91,C83;C85,C88;C42,C77;C77;high;"Part A only; alternates with part B (high-dose methotrexate/cytarabine), which is not represented as a separate row.";;;unique;;FALSE
+215;Pola-R-CHP;Polatuzumab Vedotin;Rituximab;Cyclophosphamid;Doxorubicin;Prednison;NA;NA;C83;C85;C77;C77;high;"Current first-line standard in DLBCL; vincristine is omitted relative to R-CHOP.";;;unique;;FALSE
+216;R-CVP;Rituximab;Cyclophosphamid;Vincristin;Prednison;NA;NA;NA;C82,C83,C88;C85,C91;C77;C77,C42;high;Indolent B-cell lymphoma.;;;unique;EPOCH-R,R-CHOP;FALSE
+217;O-Benda;Obinutuzumab;Bendamustin;NA;NA;NA;NA;NA;C82,C91;C83,C88,C85;C77,C42;C77;high;Obinutuzumab/bendamustine in follicular lymphoma and CLL.;;;unique;;FALSE
+218;Venetoclax + Obinutuzumab;Venetoclax;Obinutuzumab;NA;NA;NA;NA;NA;C91;;C42;;high;Fixed-duration first line in CLL (CLL14).;;;unique;;FALSE
+219;Venetoclax + Rituximab;Venetoclax;Rituximab;NA;NA;NA;NA;NA;C91;;C42;;high;Fixed-duration therapy in relapsed CLL (MURANO).;;;unique;;FALSE
+220;Ibrutinib;Ibrutinib;NA;NA;NA;NA;NA;NA;C91;C83,C88;C42;C77;high;BTK inhibitor: CLL, mantle cell lymphoma, Waldenstroem macroglobulinaemia.;;;unique;;TRUE
+221;Chlorambucil + Obinutuzumab;Chlorambucil;Obinutuzumab;NA;NA;NA;NA;NA;C91;C82;C42;C77;high;CLL in patients with comorbidity.;;;unique;;FALSE
+222;A+AVD;Brentuximab;Doxorubicin;Vinblastin;Dacarbazin;NA;NA;NA;C81;;C77;;high;Brentuximab vedotin plus AVD in advanced-stage Hodgkin lymphoma.;;;unique;;FALSE
+223;Brentuximab mono;Brentuximab;NA;NA;NA;NA;NA;NA;C81,C84;C85;C77;C77;high;Hodgkin lymphoma and CD30-positive T-cell lymphoma.;;;unique;A+AVD,BrECADD;TRUE
+224;D-VTd;Daratumumab;Bortezomib;Thalidomid;Dexamethason;NA;NA;NA;C90;;C42;;high;Transplant-eligible first line in myeloma (CASSIOPEIA).;;;unique;;FALSE
+225;D-Rd;Daratumumab;Lenalidomid;Dexamethason;NA;NA;NA;NA;C90;;C42;;high;Transplant-ineligible first line in myeloma (MAIA).;;;unique;;FALSE
+226;D-VMP;Daratumumab;Bortezomib;Melphalan;Prednison;NA;NA;NA;C90;;C42;;high;Transplant-ineligible first line in myeloma (ALCYONE).;;;unique;;FALSE
+227;Pom-Dex;Pomalidomid;Dexamethason;NA;NA;NA;NA;NA;C90;;C42;;high;Relapsed/refractory myeloma.;;;unique;;FALSE
+228;Vd;Bortezomib;Dexamethason;NA;NA;NA;NA;NA;C90;C88;C42;C77;high;Bortezomib/dexamethasone doublet.;;;unique;D-VTd,VCD,VFD,VRD,VTD;FALSE
+229;Tamoxifen;Tamoxifen;NA;NA;NA;NA;NA;NA;C50;C56;C50;C56;high;"SERM; adjuvant and palliative in HR-positive breast cancer, pre- and postmenopausal. Use in DCIS (D05) is out of scope here.";;;unique;Tamoxifen + GnRH-Analogon;TRUE
+230;Anastrozol;Anastrozol;NA;NA;NA;NA;NA;NA;C50;;C50;;high;"Non-steroidal aromatase inhibitor; postmenopausal HR-positive breast cancer.";;;unique;;TRUE
+231;Letrozol mono;Letrozol;NA;NA;NA;NA;NA;NA;C50;C54;C50;C54;high;"Non-steroidal aromatase inhibitor; also used in endocrine therapy of endometrial carcinoma.";;;unique;Palbociclib + Letrozol,Ribociclib + Letrozol;TRUE
+232;Exemestan;Exemestan;NA;NA;NA;NA;NA;NA;C50;;C50;;high;Steroidal aromatase inhibitor.;;;unique;AI + GnRH-Analogon;TRUE
+233;Fulvestrant mono;Fulvestrant;NA;NA;NA;NA;NA;NA;C50;;C50;;high;"Selective oestrogen receptor degrader; metastatic HR-positive breast cancer.";;;unique;Abemaciclib + Fulvestrant;TRUE
+234;Tamoxifen + GnRH-Analogon;Tamoxifen;GnRH-Analogon;NA;NA;NA;NA;NA;C50;;C50;;high;Tamoxifen with ovarian function suppression in premenopausal patients.;;;unique;;FALSE
+235;AI + GnRH-Analogon;Exemestan;GnRH-Analogon;NA;NA;NA;NA;NA;C50;;C50;;high;"Aromatase inhibitor with ovarian function suppression (SOFT/TEXT). Exemestane stands for the class; anastrozole and letrozole are used in the same position.";;;unique;;FALSE
+236;GnRH-Analogon (ADT);GnRH-Analogon;NA;NA;NA;NA;NA;NA;C61;C50;C61;C50;high;Androgen deprivation by GnRH agonist (leuprorelin, goserelin, triptorelin). Recorded at class level because registry documentation frequently is.;;;unique;AI + GnRH-Analogon,Tamoxifen + GnRH-Analogon;TRUE
+237;Degarelix;Degarelix;NA;NA;NA;NA;NA;NA;C61;;C61;;high;"GnRH antagonist; androgen deprivation without testosterone flare.";;;unique;;TRUE
+238;Bicalutamid;Bicalutamid;NA;NA;NA;NA;NA;NA;C61;;C61;;high;First-generation anti-androgen.;;;unique;;TRUE
+239;Apalutamid;Apalutamid;NA;NA;NA;NA;NA;NA;C61;;C61;;high;"Second-generation androgen receptor inhibitor; given with androgen deprivation.";;;unique;;TRUE
+240;Darolutamid;Darolutamid;NA;NA;NA;NA;NA;NA;C61;;C61;;high;"Second-generation androgen receptor inhibitor; given with androgen deprivation.";;;unique;;TRUE
+241;Medroxyprogesteronacetat;Medroxyprogesteronacetat;NA;NA;NA;NA;NA;NA;C54;C56;C54;C56;high;Progestin therapy in endocrine-responsive endometrial carcinoma, including fertility-preserving approaches.;;;unique;;TRUE
+242;Megestrolacetat;Megestrolacetat;NA;NA;NA;NA;NA;NA;C54;C50;C54;C50;high;"Progestin; endometrial carcinoma and pretreated HR-positive breast cancer.";;;unique;;TRUE
+243;Octreotid LAR;Octreotid;NA;NA;NA;NA;NA;NA;C25,C17,C18;C34,C73,C19,C20;C25,C17,C18;C34,C73,C19,C20;high;"Long-acting somatostatin analogue; antiproliferative and antisecretory in well-differentiated NET.";;;unique;;TRUE
+244;Lanreotid;Lanreotid;NA;NA;NA;NA;NA;NA;C25,C17,C18;C34,C19,C20;C25,C17,C18;C34,C19,C20;high;"Long-acting somatostatin analogue; antiproliferative in well-differentiated gastroenteropancreatic NET.";;;unique;;TRUE

@@ -1,0 +1,225 @@
+﻿Source:;Basis: ZFKD 2025, modified, annotated with support by Claude Opus, modified, Enhanced with support by Claude Opus, modified;;;;;;;;;;;;;;;;;;
+Regime;Substance1;Substance2;Substance3;Substance4;Substance5;Substance6;Substance7;Inclusion.ICD10.Short;Inclusion.ICD10.Short.SecondaryUse;Inclusion.ICDO.TopographyCode.Short;Inclusion.ICDO.TopographyCode.Short.SecondaryUse;Confidence;DuplicateGroup;DuplicateGroup.Members;DuplicateGroup.Disambiguation;SubsetOf;SingleAgent;Therapy.Line;Therapy.Context
+A+AVD;Brentuximab;Doxorubicin;Vinblastin;Dacarbazin;;;;C81;;C77;;high;;;unique;;FALSE;first-line;curative-intent
+Abemaciclib + Fulvestrant;Abemaciclib;Fulvestrant;;;;;;C50;;C50;;high;;;unique;;FALSE;second-line+;palliative
+Abirateron + Prednison;Abirateron;Prednison;;;;;;C61;;C61;;high;;;unique;;FALSE;first-line and later;palliative
+ABVD;Bleomycin;Dacarbazin;Doxorubicin;Vinblastin;;;;C81;;C77;;high;;;unique;;FALSE;first-line;curative-intent
+AC;Cyclophosphamid;Doxorubicin;;;;;;C50;C49,  C54,  C40,  C41;C50;C49,  C54,  C40,  C41;high;;;unique;ACO,BEACOPP,BrECADD,CAD,CHOEP,CHOP,EPOCH-R,FAC,Hyper-CVAD,PAC,Pola-R-CHP,R-CHOP,TAC;FALSE;first-line;neoadjuvant,adjuvant,curative-intent
+ACO;Cyclophosphamid;Doxorubicin;Vincristin;;;;;C34;C74,  C40,  C41,  C49,  C83,  C85;C34;C74,  C40,  C41,  C49,  C77;medium;;;unique;BEACOPP,CHOEP,CHOP,EPOCH-R,Hyper-CVAD,R-CHOP;FALSE;first-line;palliative
+ADR-IFO;Doxorubicin;Ifosfamid;Mesna;;;;;C49,  C48,  C41;C40,  C38,  C47,  C54,  C69;C49, C48, C41;C40, C38, C47, C54, C69;high;;;unique;VIDE;FALSE;first-line;palliative,neoadjuvant
+AI + GnRH-Analogon;Exemestan;GnRH-Analogon;;;;;;C50;;C50;;high;;;unique;;FALSE;first-line and later;adjuvant,palliative,long-term endocrine
+AIDA;Tretinoin;Idarubicin;;;;;;C92;;C42;;high;;;unique;;FALSE;first-line;induction,curative-intent
+AIO;Fluorouracil;Folinsäure;;;;;;C18, C19, C20;C16, C15, C21, C25, C22, C23, C24;C18, C19, C20;C16, C15, C21, C25, C22, C23, C24;high;;;unique;FLO,FLOT,FOLFIRI,FOLFIRI + Bevacizumab,FOLFIRI + Cetuximab,FOLFOX,FOLFOX + Bevacizumab,FOLFOX + Panitumumab,FOLFOXIRI,FUFAMI,Folfirinox,PLF,nal-IRI + 5-FU/FA;FALSE;;palliative
+Alectinib;Alectinib;;;;;;;C34;;C34;;high;;;unique;;TRUE;first-line;palliative
+Anastrozol;Anastrozol;;;;;;;C50;;C50;;high;;;unique;;TRUE;first-line and later;adjuvant,palliative,long-term endocrine
+Apalutamid;Apalutamid;;;;;;;C61;;C61;;high;;;unique;;TRUE;first-line and later;palliative
+Atezolizumab + Bevacizumab;Atezolizumab;Bevacizumab;;;;;;C22;;C22;;high;;;unique;;FALSE;first-line;palliative
+Atezolizumab + Carbo/Etoposid;Atezolizumab;Carboplatin;Etoposid;;;;;C34;;C34;;high;;;unique;;FALSE;first-line;palliative
+ATRA + ATO;Tretinoin;Arsentrioxid;;;;;;C92;;C42;;high;;;unique;;FALSE;first-line;induction,consolidation,curative-intent
+AVD;Dacarbazin;Doxorubicin;Vinblastin;;;;;C81;;C77;;high;;;unique;A+AVD,ABVD;FALSE;first-line;curative-intent
+Avelumab Erhaltung;Avelumab;;;;;;;C67, C65, C66, C68;;C67, C65, C66, C68;;high;;;unique;;TRUE;;maintenance,palliative
+Azacitidin + Venetoclax;Azacitidin;Venetoclax;;;;;;C92;D46;C42;C42, D46;high;;;unique;;FALSE;first-line;palliative
+Azacitidin mono;Azacitidin;;;;;;;C92;C93, D46;C42;C42, D46;high;;;unique;Azacitidin + Venetoclax;TRUE;first-line;palliative
+BEACOPP;Bleomycin;Cyclophosphamid;Doxorubicin;Etoposid;Procarbazin;Vincristin;Prednison;C81;;C77;;high;;;unique;;FALSE;first-line;curative-intent
+BEAM;Carmustin;Cytarabin;Etoposid;Melphalan;;;;C81, C82, C83, C84, C85;C86, C88, C90, C91;C77;C77, C42;high;;;unique;Dexa-BEAM;FALSE;second-line+;SCT-conditioning
+Bevacizumab mono;Bevacizumab;;;;;;;C71;C70, C72;C71;C70, C72;medium;;;unique;Atezolizumab + Bevacizumab,FOLFIRI + Bevacizumab,FOLFOX + Bevacizumab,GC-B (Carbo),GC-B (Cis),PC mit Bevacizumab,Paclitaxel/Cisplatin/Bevacizumab;TRUE;second-line+;palliative
+Bicalutamid;Bicalutamid;;;;;;;C61;;C61;;high;;;unique;;TRUE;;palliative
+Blinatumomab;Blinatumomab;;;;;;;C91;;C42;;high;;;unique;;TRUE;second-line+;palliative
+BOLD;Bleomycin;Dacarbazin;Lomustin;Vincristin;;;;C43;C44, C69;C43;C44, C69;high;;;unique;;FALSE;;palliative
+BP;Bendamustin;Prednison;;;;;;C90;C91, C82, C83, C85, C88;C42;C42, C77;low;;;unique;;FALSE;;palliative
+BrECADD;Brentuximab;Cyclophosphamid;Dacarbazin;Doxorubicin;Etoposid;Dexamethason;;C81;;C77;;high;;;unique;;FALSE;first-line;curative-intent
+Brentuximab mono;Brentuximab;;;;;;;C81, C84;C85;C77;C77;high;;;unique;A+AVD,BrECADD;TRUE;second-line+;palliative
+BuCy;Busulfan;Cyclophosphamid;;;;;;C92, C91;C93, C95, C90, D46;C42;C42, D46;medium;;;unique;;FALSE;;SCT-conditioning
+Cabazitaxel + Prednison;Cabazitaxel;Prednison;;;;;;C61;;C61;;high;;;unique;;FALSE;second-line+;palliative
+Cabozantinib;Cabozantinib;;;;;;;C64;C22, C73;C64;C22, C73;high;;;unique;;TRUE;first-line and later;palliative
+CAD;Cyclophosphamid;Doxorubicin;Dexamethason;;;;;C90;C83, C85;C42;C77;medium;;;unique;BrECADD,Hyper-CVAD;FALSE;;stem-cell mobilisation
+Capecitabin mono;Capecitabin;;;;;;;C18, C19, C20, C50, C16;C15, C25, C22, C23, C24, C21;C18, C19, C20, C50, C16;C15, C25, C22, C23, C24, C21;high;;;unique;CAPOX,CAPTEM,EOX,XP;TRUE;first-line and later;adjuvant,palliative
+CAPOX;Capecitabin;Oxaliplatin;;;;;;C18, C19, C20, C16;C15, C25, C22, C23, C24;C18, C19, C20, C16;C15, C25, C22, C23, C24;high;;;unique;EOX;FALSE;first-line;adjuvant,perioperative,palliative
+CAPTEM;Capecitabin;Temozolomid;;;;;;C25, C17;C34, C18, C73;C25, C17;C34, C18, C73;high;;;unique;;FALSE;first-line and later;palliative
+CarboPemPem;Carboplatin;Pembrolizumab;Pemetrexed;;;;;C34, C45;C48, C38, C33;C34, C45;C48, C38, C33;high;DG01;Pembro + Carbo/Pem;partly resolvable by entity;;FALSE;first-line;palliative,maintenance
+Carboplatin mono;Carboplatin;;;;;;;C56, C57, C48;C34, C50, C62;C56, C57, C48;C34, C50, C62;high;;;unique;Atezolizumab + Carbo/Etoposid,CEV,CROSS,CarboPemPem,DC (Doce/Carbo),DeVIC,Durvalumab + Platin/Etoposid,EXTREME mit Carboplatin,GC-B (Carbo),Gem-Carbo,ICE,M-Cavi,PC,PC mit Bevacizumab,PE-Carbo,Pembro + Carbo/Paclitaxel,Pembro + Carbo/Pem,R-DeVIC,R-ICE,TCH;TRUE;first-line;adjuvant,palliative
+CEV;Carboplatin;Etoposid;Vincristin;;;;;C69, C74, C34;C40, C41, C49;C69, C74, C34;C40, C41, C49;low;;;unique;;FALSE;first-line;palliative
+Chlorambucil + Obinutuzumab;Chlorambucil;Obinutuzumab;;;;;;C91;C82;C42;C77;high;;;unique;;FALSE;first-line;palliative
+CHOEP;Cyclophosphamid;Doxorubicin;Etoposid;Vincristin;Prednison;;;C83, C84, C85, C86;C82, C88;C77;C77;high;;;unique;BEACOPP,EPOCH-R;FALSE;first-line;curative-intent
+CHOP;Cyclophosphamid;Doxorubicin;Vincristin;Prednison;;;;C82, C83, C84, C85;C86, C88, C91, C37;C77;C77, C42, C37;high;;;unique;BEACOPP,CHOEP,EPOCH-R,R-CHOP;FALSE;first-line;curative-intent
+Cis-Pem;Cisplatin;Pemetrexed;;;;;;C34, C45;C48, C38;C34, C45;C48, C38;high;;;unique;;FALSE;first-line;palliative
+Cisplatin + RT;Cisplatin;;;;;;;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32, C53;C15, C33, C34;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32, C53;C15, C33, C34;high;;;unique;CV,Cis-Pem,DHAP,DVP,Durvalumab + Gem/Cis,ECF,EXTREME mit Cisplatin,GC-B (Cis),GDP-Schema,Gem-Cis,M-VAC,MAP,PAC,PE,PEB,PEI,PF,PLF,PVBI,Paclitaxel/Cisplatin/Bevacizumab,Pembro + Platin/5-FU,R-DHAP,TIP,TPF,VIPD,VeIP,XP;TRUE;first-line;chemoradiotherapy,curative-intent
+CMF;Cyclophosphamid;Fluorouracil;Methotrexat;;;;;C50;;C50;;high;;;unique;;FALSE;first-line;adjuvant
+COPP;Cyclophosphamid;Procarbazin;Vincristin;Prednison;;;;C81;C83, C85;C77;C77;high;;;unique;BEACOPP;FALSE;first-line;curative-intent
+CPX-351;Cytarabin und Daunorubicin;;;;;;;C92;D46;C42;C42, D46;high;;;unique;;TRUE;first-line;induction
+CROSS;Carboplatin;Paclitaxel;;;;;;C15;C16;C15;C16;high;DG02;PC;resolvable by entity;PC mit Bevacizumab,Pembro + Carbo/Paclitaxel;FALSE;first-line;neoadjuvant,chemoradiotherapy,curative-intent
+CV;Cisplatin;Vinorelbin;;;;;;C34;C33, C50, C45;C34;C33, C50, C45;medium;;;unique;;FALSE;first-line;adjuvant,palliative
+DA;Cytarabin;Daunorubicin;;;;;;C92;C91, C93, C94, D46;C42;C42, D46;medium;;;unique;TAD;FALSE;first-line;induction
+Dabrafenib + Trametinib;Dabrafenib;Trametinib;;;;;;C43;C34, C71, C73;C43;C34, C71, C73;high;;;unique;;FALSE;first-line and later;adjuvant,palliative
+Darolutamid;Darolutamid;;;;;;;C61;;C61;;high;;;unique;;TRUE;first-line and later;palliative
+Dasatinib;Dasatinib;;;;;;;C92;C91;C42;C42;high;;;unique;;TRUE;first-line and later;palliative
+DC (Doce/Carbo);Carboplatin;Docetaxel;;;;;;C50, C56, C34;C57, C48, C54, C15, C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C50, C56, C34;C57, C48, C54, C15, C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;medium;;;unique;TCH;FALSE;first-line;neoadjuvant,adjuvant,palliative
+DC (Doce/Cyclo);Cyclophosphamid;Docetaxel;;;;;;C50;;C50;;high;;;unique;EC-D,FEC-Doc,TAC;FALSE;first-line;adjuvant
+Degarelix;Degarelix;;;;;;;C61;;C61;;high;;;unique;;TRUE;first-line;palliative
+DeVIC;Carboplatin;Etoposid;Ifosfamid;Dexamethason;;;;C86, C83, C85;C82, C84, C81;C11, C30, C77;C77;medium;;;unique;R-DeVIC;FALSE;first-line and later;chemoradiotherapy,salvage
+Dexa-BEAM;Carmustin;Cytarabin;Etoposid;Melphalan;Dexamethason;;;C81, C83, C85;C82, C84;C77;C77;high;;;unique;;FALSE;second-line+;salvage,stem-cell mobilisation
+DHAP;Cisplatin;Cytarabin;Dexamethason;;;;;C81, C83, C85;C82, C84, C86, C88;C77;C77;high;;;unique;R-DHAP;FALSE;second-line+;salvage
+Docetaxel + Prednison;Docetaxel;Prednison;;;;;;C61;;C61;;high;;;unique;;FALSE;first-line;palliative
+Doxorubicin mono;Doxorubicin;;;;;;;C49, C48;C40, C41, C50, C54;C49, C48;C40, C41, C50, C54;high;;;unique;A+AVD,ABVD,AC,ACO,ADR-IFO,AVD,BEACOPP,BrECADD,CAD,CHOEP,CHOP,EPOCH-R,FAC,Hyper-CVAD,M-VAC,MAP,PAC,PVAG-Schema,Pola-R-CHP,R-CHOP,TAC,VIDE;TRUE;first-line;palliative
+DRC;Cyclophosphamid;Rituximab;Dexamethason;;;;;C88;C82, C83, C85;C77;C77;high;;;unique;;FALSE;first-line;palliative
+D-Rd;Daratumumab;Lenalidomid;Dexamethason;;;;;C90;;C42;;high;;;unique;;FALSE;first-line;palliative
+DTIC mono;Dacarbazin;;;;;;;C43;C49, C81;C43;C49, C77;medium;;;unique;A+AVD,ABVD,AVD,BOLD,BrECADD,DVP;TRUE;;palliative
+Durvalumab + Gem/Cis;Durvalumab;Gemcitabin;Cisplatin;;;;;C22, C23, C24;;C22, C23, C24;;high;;;unique;;FALSE;first-line;palliative
+Durvalumab + Platin/Etoposid;Durvalumab;Carboplatin;Etoposid;;;;;C34;;C34;;high;;;unique;;FALSE;first-line;palliative
+Durvalumab mono;Durvalumab;;;;;;;C34;C22, C23, C24;C34;C22, C23, C24;high;;;unique;Durvalumab + Gem/Cis,Durvalumab + Platin/Etoposid;TRUE;;consolidation,curative-intent
+D-VMP;Daratumumab;Bortezomib;Melphalan;Prednison;;;;C90;;C42;;high;;;unique;;FALSE;first-line;palliative
+DVP;Cisplatin;Dacarbazin;Vindesin;;;;;C43;C69;C43;C69;medium;;;unique;;FALSE;;palliative
+D-VTd;Daratumumab;Bortezomib;Thalidomid;Dexamethason;;;;C90;;C42;;high;;;unique;;FALSE;first-line;induction
+EC;Cyclophosphamid;Epirubicin;;;;;;C50;C34, C49, C40, C41;C50;C34, C49, C40, C41;high;;;unique;EC-D,EC-P,FEC,FEC-Doc;FALSE;first-line;neoadjuvant,adjuvant,curative-intent
+EC-D;Cyclophosphamid;Docetaxel;Epirubicin;;;;;C50;;C50;;high;;;unique;FEC-Doc;FALSE;first-line;neoadjuvant,adjuvant,curative-intent
+ECF;Cisplatin;Epirubicin;Fluorouracil;;;;;C16, C15;C22, C23, C24, C25;C16, C15;C22, C23, C24, C25;high;;;unique;;FALSE;first-line;perioperative,palliative
+EC-P;Cyclophosphamid;Epirubicin;Paclitaxel;;;;;C50;;C50;;high;;;unique;;FALSE;first-line;neoadjuvant,adjuvant,curative-intent
+ELO-Rd;Elotuzumab;Lenalidomid;Dexamethason;;;;;C90;;C42;;high;;;unique;;FALSE;second-line+;palliative
+Encorafenib + Binimetinib;Encorafenib;Binimetinib;;;;;;C43;C18, C19, C20;C43;C18, C19, C20;high;;;unique;;FALSE;first-line and later;palliative
+Enzalutamid;Enzalutamid;;;;;;;C61;;C61;;high;;;unique;;TRUE;first-line and later;palliative
+EOX;Capecitabin;Epirubicin;Oxaliplatin;;;;;C16, C15;C22, C23, C24;C16, C15;C22, C23, C24;high;;;unique;;FALSE;first-line;palliative
+EPOCH-R;Cyclophosphamid;Doxorubicin;Etoposid;Vincristin;Rituximab;Prednison;;C83, C85;C82, C88, C91;C77;C77, C38;high;;;unique;;FALSE;first-line;curative-intent
+Eribulin;Eribulin;;;;;;;C50;C49;C50;C49;high;;;unique;;TRUE;second-line+;palliative
+EV + Pembrolizumab;Enfortumab Vedotin;Pembrolizumab;;;;;;C67, C65, C66, C68;;C67, C65, C66, C68;;high;;;unique;;FALSE;first-line;palliative
+Exemestan;Exemestan;;;;;;;C50;;C50;;high;;;unique;AI + GnRH-Analogon;TRUE;first-line and later;adjuvant,palliative,long-term endocrine
+EXTREME mit Carboplatin;Carboplatin;Cetuximab;Fluorouracil;;;;;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C00, C07, C08, C11, C12, C30, C31, C15;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C00, C07, C08, C11, C12, C30, C31, C15;high;;;unique;;FALSE;first-line;palliative
+EXTREME mit Cisplatin;Cetuximab;Cisplatin;Fluorouracil;;;;;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C00, C07, C08, C11, C12, C30, C31, C15;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C00, C07, C08, C11, C12, C30, C31, C15;high;;;unique;;FALSE;first-line;palliative
+FAC;Cyclophosphamid;Doxorubicin;Fluorouracil;;;;;C50;;C50;;high;;;unique;;FALSE;first-line;adjuvant
+FC;Cyclophosphamid;Fludarabin;;;;;;C91;C82, C83, C88;C42;C77;high;;;unique;FCR;FALSE;;palliative
+FCR;Cyclophosphamid;Fludarabin;Rituximab;;;;;C91;C82, C83, C88;C42;C77;high;;;unique;;FALSE;first-line;palliative
+FEC;Cyclophosphamid;Epirubicin;Fluorouracil;;;;;C50;;C50;;high;;;unique;FEC-Doc;FALSE;first-line;neoadjuvant,adjuvant,curative-intent
+FEC-Doc;Cyclophosphamid;Docetaxel;Epirubicin;Fluorouracil;;;;C50;;C50;;high;;;unique;;FALSE;first-line;neoadjuvant,adjuvant,curative-intent
+FLAG-Ida;Cytarabin;Fludarabin;Idarubicin;;;;;C92;C91, C93, D46;C42;C42, D46;high;;;unique;;FALSE;second-line+;salvage
+FLO;Fluorouracil;Folinsäure;Oxaliplatin;;;;;C16, C15;C18, C19, C20, C25;C16, C15;C18, C19, C20, C25;high;DG03;FOLFOX;resolvable by entity;FLOT,FOLFOX + Bevacizumab,FOLFOX + Panitumumab,FOLFOXIRI,Folfirinox;FALSE;first-line;palliative
+FLOT;Docetaxel;Fluorouracil;Folinsäure;Oxaliplatin;;;;C16, C15;C17, C25;C16, C15;C17, C25;high;;;unique;;FALSE;first-line;perioperative,curative-intent
+Flu-Cam;Alemtuzumab;Fludarabin;;;;;;C91;C84;C42;C77;medium;;;unique;;FALSE;second-line+;palliative
+FOLFIRI;Fluorouracil;Folinsäure;Irinotecan;;;;;C18, C19, C20;C16, C25, C22, C23, C24;C18, C19, C20;C16, C25, C22, C23, C24;high;;;unique;FOLFIRI + Bevacizumab,FOLFIRI + Cetuximab,FOLFOXIRI,Folfirinox;FALSE;first-line and later;palliative
+FOLFIRI + Bevacizumab;Fluorouracil;Folinsäure;Irinotecan;Bevacizumab;;;;C18, C19, C20;;C18, C19, C20;;high;;;unique;;FALSE;first-line and later;palliative
+FOLFIRI + Cetuximab;Fluorouracil;Folinsäure;Irinotecan;Cetuximab;;;;C18, C19, C20;;C18, C19, C20;;high;;;unique;;FALSE;first-line and later;palliative
+Folfirinox;Fluorouracil;Folinsäure;Irinotecan;Oxaliplatin;;;;C25;C22, C23, C24, C18, C19, C20;C25;C22, C23, C24, C18, C19, C20;high;DG04;FOLFOXIRI;resolvable by entity;;FALSE;first-line;adjuvant,palliative
+FOLFOX;Fluorouracil;Folinsäure;Oxaliplatin;;;;;C18, C19, C20;C16, C15, C25, C22, C23, C24;C18, C19, C20;C16, C15, C25, C22, C23, C24;high;DG03;FLO;resolvable by entity;FLOT,FOLFOX + Bevacizumab,FOLFOX + Panitumumab,FOLFOXIRI,Folfirinox;FALSE;first-line;adjuvant,perioperative,palliative
+FOLFOX + Bevacizumab;Fluorouracil;Folinsäure;Oxaliplatin;Bevacizumab;;;;C18, C19, C20;C16;C18, C19, C20;C16;high;;;unique;;FALSE;first-line;palliative
+FOLFOX + Panitumumab;Fluorouracil;Folinsäure;Oxaliplatin;Panitumumab;;;;C18, C19, C20;;C18, C19, C20;;high;;;unique;;FALSE;first-line;palliative
+FOLFOXIRI;Fluorouracil;Folinsäure;Irinotecan;Oxaliplatin;;;;C18, C19, C20;C16, C25;C18, C19, C20;C16, C25;high;DG04;Folfirinox;resolvable by entity;;FALSE;first-line;palliative
+FUFAMI;Fluorouracil;Folinsäure;Mitomycin;;;;;C18, C19, C20;C21, C16;C18, C19, C20;C21, C16;medium;;;unique;;FALSE;;palliative
+Fulvestrant mono;Fulvestrant;;;;;;;C50;;C50;;high;;;unique;Abemaciclib + Fulvestrant;TRUE;first-line and later;palliative,long-term endocrine
+GC-B (Carbo);Bevacizumab;Carboplatin;Gemcitabin;;;;;C56, C57, C48;C34;C56, C57, C48;C34;high;;;unique;;FALSE;second-line+;palliative
+GC-B (Cis);Bevacizumab;Cisplatin;Gemcitabin;;;;;C56, C57, C48;C34;C56, C57, C48;C34;high;;;unique;;FALSE;first-line;palliative
+GDP-Schema;Cisplatin;Gemcitabin;Dexamethason;;;;;C81, C83, C85;C82, C84, C86;C77;C77;high;;;unique;;FALSE;second-line+;salvage
+GELOX;Asparaginase;Gemcitabin;Oxaliplatin;;;;;C86;C84;C11, C30;C77;high;;;unique;;FALSE;first-line and later;chemoradiotherapy,salvage
+Gem + Nab-Paclitaxel;Gemcitabin;Nab-Paclitaxel;;;;;;C25;;C25;;high;;;unique;;FALSE;first-line;palliative
+Gem-Carbo;Carboplatin;Gemcitabin;;;;;;C34, C56, C67;C50, C45, C57, C48, C22, C23, C24;C34, C56, C67;C50, C45, C57, C48, C22, C23, C24;medium;;;unique;GC-B (Carbo);FALSE;first-line;palliative
+Gem-Cis;Cisplatin;Gemcitabin;;;;;;C22, C23, C24, C67, C34;C25, C45, C53, C11, C65, C66;C22, C23, C24, C67, C34;C25, C45, C53, C11, C65, C66;high;;;unique;Durvalumab + Gem/Cis,GC-B (Cis),GDP-Schema;FALSE;first-line;palliative
+Gem-Doce;Gemcitabin;Docetaxel;;;;;;C49;C54, C48, C40, C41;C49;C54, C48, C40, C41;high;;;unique;;FALSE;first-line and later;palliative
+GemOx;Gemcitabin;Oxaliplatin;;;;;;C22,C23,C24,C25;C83,C85,C84,C86,C16;C22,C23,C24,C25;C77,C16;high;;;unique;GELOX,P-GEMOX,R-GemOx;FALSE;;palliative
+GnRH-Analogon (ADT);GnRH-Analogon;;;;;;;C61;C50;C61;C50;high;;;unique;AI + GnRH-Analogon,Tamoxifen + GnRH-Analogon;TRUE;first-line;adjuvant,palliative,long-term endocrine
+HAM;Cytarabin ;Mitoxantron;;;;;;C92;C91, C93, D46;C42;C42, D46;medium;;;unique;MAV;FALSE;first-line;induction,consolidation
+Hyper-CVAD;Cyclophosphamid;Vincristin;Doxorubicin;Dexamethason;Mesna;;;C91, C83;C85, C88;C42, C77;C77;high;;;unique;;FALSE;first-line;induction,curative-intent
+Ibrutinib;Ibrutinib;;;;;;;C91;C83, C88;C42;C77;high;;;unique;;TRUE;first-line and later;palliative
+ICE;Carboplatin;Etoposid;Ifosfamid;;;;;C81, C83, C85;C34, C40, C41, C49, C62, C84, C86;C77;C34, C40, C41, C49, C62, C77;high;;;unique;DeVIC,R-DeVIC,R-ICE;FALSE;second-line+;salvage
+IEV;Epirubicin;Etoposid;Ifosfamid;;;;;C81, C83, C85;C49, C40, C41;C77;C49, C40, C41;medium;;;unique;;FALSE;second-line+;salvage
+Imatinib;Imatinib;;;;;;;C92, C16, C17;C91, C18, C48, C49;C42, C16, C17;C42, C18, C48, C49;high;;;unique;;TRUE;first-line;palliative,adjuvant
+IMVP-16;Etoposid;Ifosfamid;Methotrexat;;;;;C83, C85;C81, C84;C77;C77;medium;;;unique;SMILE;FALSE;second-line+;salvage
+Instillation Intrathekal Quadrupel;Cytarabin;Methotrexat;Dexamethason;Rituximab;;;;C83, C85, C91;C92, C84, C86;C70;C77, C42;medium;;;unique;;FALSE;;CNS-directed
+Instillation Intrathekal Tripel;Cytarabin;Methotrexat;Dexamethason;;;;;C91, C83, C85;C92, C84, C86, C50, C34;C70;C77, C42;medium;;;unique;Instillation Intrathekal Quadrupel;FALSE;;CNS-directed
+IRd;Ixazomib;Lenalidomid;Dexamethason;;;;;C90;;C42;;high;;;unique;;FALSE;second-line+;palliative
+Knospe;Chlorambucil;Prednison;;;;;;C91;C82, C83, C88;C42;C77;high;;;unique;Knospe modifiziert,R-MCP;FALSE;first-line;palliative
+Knospe modifiziert;Chlorambucil;Prednison;Rituximab;;;;;C91;C82, C88;C42;C77;high;;;unique;R-MCP;FALSE;first-line;palliative
+KRD;Carfilzomib;Lenalidomid;Dexamethason;;;;;C90;;C42;;high;;;unique;;FALSE;second-line+;palliative
+Lanreotid;Lanreotid;;;;;;;C25, C17, C18;C34, C19, C20;C25, C17, C18;C34, C19, C20;high;;;unique;;TRUE;first-line;palliative
+Lenvatinib;Lenvatinib;;;;;;;C22, C73;C54, C64;C22, C73;C54, C64;high;;;unique;;TRUE;first-line and later;palliative
+Letrozol mono;Letrozol;;;;;;;C50;C54;C50;C54;high;;;unique;Palbociclib + Letrozol,Ribociclib + Letrozol;TRUE;first-line and later;adjuvant,palliative,long-term endocrine
+Lomustin mono;Lomustin;;;;;;;C71;C70, C72;C71;C70, C72;high;;;unique;BOLD,PCV;TRUE;second-line+;palliative
+MAMAC;Amsacrin;Cytarabin;;;;;;C92;C91;C42;C42;medium;;;unique;;FALSE;second-line+;salvage
+MAP;Methotrexat;Doxorubicin;Cisplatin;;;;;C40, C41;C49;C40, C41;C49;high;;;unique;M-VAC;FALSE;first-line;neoadjuvant,adjuvant,curative-intent
+MATRix;Cytarabin;Methotrexat;Rituximab;Thiotepa;;;;C83;C85;C71;C77;high;;;unique;;FALSE;first-line;induction,curative-intent
+MAV;Cytarabin;Etoposid;Mitoxantron;;;;;C92;C91, D46;C42;C42, D46;medium;;;unique;;FALSE;;salvage
+M-Cavi;Carboplatin;Methotrexat;Vinblastin;;;;;C67, C65, C66, C68;;C67, C65, C66, C68;;high;;;unique;;FALSE;first-line;palliative
+Medroxyprogesteronacetat;Medroxyprogesteronacetat;;;;;;;C54;C56;C54;C56;high;;;unique;;TRUE;;palliative,long-term endocrine
+Megestrolacetat;Megestrolacetat;;;;;;;C54;C50;C54;C50;high;;;unique;;TRUE;;palliative,long-term endocrine
+MPT;Melphalan;Thalidomid;Prednison;;;;;C90;;C42;;high;;;unique;;FALSE;first-line;palliative
+M-VAC;Cisplatin;Doxorubicin;Methotrexat;Vinblastin;;;;C67, C65, C66, C68;;C67, C65, C66, C68;;high;;;unique;;FALSE;first-line;neoadjuvant,palliative
+Nab-Paclitaxel mono;Nab-Paclitaxel;;;;;;;C50;C34, C25;C50;C34, C25;high;;;unique;Gem + Nab-Paclitaxel;TRUE;;palliative
+nal-IRI + 5-FU/FA;Irinotecan liposomal;Fluorouracil;Folinsäure;;;;;C25;;C25;;high;;;unique;;FALSE;second-line+;palliative
+Nigro;Fluorouracil;Mitomycin;;;;;;C21;;C21;;high;;;unique;FUFAMI;FALSE;first-line;chemoradiotherapy,curative-intent
+Nilotinib;Nilotinib;;;;;;;C92;C91;C42;C42;high;;;unique;;TRUE;first-line and later;palliative
+Niraparib;Niraparib;;;;;;;C56, C57, C48;;C56, C57, C48;;high;;;unique;;TRUE;;maintenance
+Nivolumab + Ipilimumab;Nivolumab;Ipilimumab;;;;;;C43, C64;C45, C18, C19, C20, C22, C34, C69;C43, C64;C45, C18, C19, C20, C22, C34, C69;high;;;unique;;FALSE;first-line;palliative
+Nivolumab mono;Nivolumab;;;;;;;C34, C43, C64;C32, C09, C10, C15, C16, C67, C22, C81, C45;C34, C43, C64;C32, C09, C10, C15, C16, C67, C22, C77, C45;high;;;unique;Nivolumab + Ipilimumab;TRUE;first-line and later;adjuvant,palliative
+O-Benda;Obinutuzumab;Bendamustin;;;;;;C82, C91;C83, C88, C85;C77, C42;C77;high;;;unique;;FALSE;first-line and later;palliative
+Octreotid LAR;Octreotid;;;;;;;C25, C17, C18;C34, C73, C19, C20;C25, C17, C18;C34, C73, C19, C20;high;;;unique;;TRUE;first-line;palliative
+Olaparib;Olaparib;;;;;;;C50, C56, C61, C25;C57, C48;C50, C56, C61, C25;C57, C48;high;;;unique;;TRUE;;maintenance,palliative
+Osimertinib;Osimertinib;;;;;;;C34;;C34;;high;;;unique;;TRUE;first-line;adjuvant,palliative
+PAC;Cisplatin;Cyclophosphamid;Doxorubicin;;;;;C56, C54;C57, C48, C49;C56, C54;C57, C48, C49;medium;;;unique;;FALSE;first-line;palliative
+Paclitaxel mono;Paclitaxel;;;;;;;C50;C56, C57, C48, C34, C15;C50;C56, C57, C48, C34, C15;high;;;unique;CROSS,EC-P,PC,PC mit Bevacizumab,Paclitaxel/Cisplatin/Bevacizumab,Pembro + Carbo/Paclitaxel,Ramucirumab + Paclitaxel,TIP;TRUE;first-line and later;adjuvant,palliative
+Paclitaxel/Cisplatin/Bevacizumab;Paclitaxel;Cisplatin;Bevacizumab;;;;;C53;;C53;;high;;;unique;;FALSE;first-line;palliative
+Palbociclib + Letrozol;Palbociclib;Letrozol;;;;;;C50;;C50;;high;;;unique;;FALSE;first-line;palliative
+Pazopanib;Pazopanib;;;;;;;C64, C49;C48;C64, C49;C48;high;;;unique;;TRUE;;palliative
+PC;Carboplatin;Paclitaxel;;;;;;C56, C57, C48, C34, C54;C53, C15, C32, C67, C50, C37, C80;C56, C57, C48, C34, C54;C53, C15, C32, C67, C50, C37, C80;high;DG02;CROSS;resolvable by entity;PC mit Bevacizumab,Pembro + Carbo/Paclitaxel;FALSE;first-line;palliative
+PC mit Bevacizumab;Bevacizumab;Carboplatin;Paclitaxel;;;;;C56, C57, C48, C34;C53, C54, C18, C19, C20;C56, C57, C48, C34;C53, C54, C18, C19, C20;high;;;unique;;FALSE;first-line;palliative
+PCV;Lomustin;Procarbazin;Vincristin;;;;;C71;C70, C72;C71;C70, C72;high;;;unique;;FALSE;first-line and later;adjuvant,palliative
+PE;Cisplatin;Etoposid;;;;;;C34;C37, C62, C56, C25, C80, C33;C34;C37, C62, C56, C25, C80, C33;high;;;unique;PEB,PEI,VIPD;FALSE;first-line;palliative,chemoradiotherapy
+PEB;Bleomycin;Cisplatin;Etoposid;;;;;C62;C56, C38, C48, C71;C62;C56, C38, C48, C71;high;;;unique;;FALSE;first-line;curative-intent
+PE-Carbo;Carboplatin;Etoposid;;;;;;C34;C37, C25, C80, C33;C34;C37, C25, C80, C33;high;;;unique;Atezolizumab + Carbo/Etoposid,CEV,DeVIC,Durvalumab + Platin/Etoposid,ICE,R-DeVIC,R-ICE;FALSE;first-line;palliative
+PEI;Cisplatin;Etoposid;Ifosfamid;;;;;C62;C34, C38, C48, C56, C49;C62;C34, C38, C48, C56, C49;high;;;unique;VIPD;FALSE;first-line and later;salvage
+Pembro + Carbo/Paclitaxel;Pembrolizumab;Carboplatin;Paclitaxel;;;;;C34;C53;C34;C53;high;;;unique;;FALSE;first-line;palliative
+Pembro + Carbo/Pem;Pembrolizumab;Carboplatin;Pemetrexed;;;;;C34;;C34;;high;DG01;CarboPemPem;partly resolvable by entity;;FALSE;first-line;palliative
+Pembro + Platin/5-FU;Pembrolizumab;Cisplatin;Fluorouracil;;;;;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C00, C07, C08, C11, C12, C30, C31;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C00, C07, C08, C11, C12, C30, C31;high;;;unique;;FALSE;first-line;palliative
+Pembrolizumab + Axitinib;Pembrolizumab;Axitinib;;;;;;C64;;C64;;high;;;unique;;FALSE;first-line;palliative
+Pembrolizumab mono;Pembrolizumab;;;;;;;C34, C43;C67, C65, C66, C68, C32, C09, C10, C15, C16, C18, C22, C53, C80;C34, C43;C67, C65, C66, C68, C32, C09, C10, C15, C16, C18, C22, C53, C80;high;;;unique;CarboPemPem,EV + Pembrolizumab,Pembro + Carbo/Paclitaxel,Pembro + Carbo/Pem,Pembro + Platin/5-FU,Pembrolizumab + Axitinib;TRUE;first-line and later;adjuvant,palliative
+PF;Cisplatin;Fluorouracil;;;;;;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C00, C07, C08, C11, C12, C30, C31, C15, C16;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C00, C07, C08, C11, C12, C30, C31, C15, C16;high;;;unique;ECF,EXTREME mit Cisplatin,PLF,Pembro + Platin/5-FU,TPF;FALSE;first-line;palliative,neoadjuvant
+P-GEMOX;Pegaspargase;Gemcitabin;Oxaliplatin;;;;;C86;C84;C11, C30;C77;high;;;unique;;FALSE;first-line and later;chemoradiotherapy,salvage
+PLD mono;Doxorubicin liposomal;;;;;;;C56, C57, C48;C50, C46;C56, C57, C48;C50, C46;high;;;unique;;TRUE;second-line+;palliative
+PLF;Cisplatin;Fluorouracil;Folinsäure;;;;;C16, C15;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C16, C15;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;medium;;;unique;;FALSE;first-line;palliative
+Pola-R-CHP;Polatuzumab Vedotin;Rituximab;Cyclophosphamid;Doxorubicin;Prednison;;;C83;C85;C77;C77;high;;;unique;;FALSE;first-line;curative-intent
+Pom-Dex;Pomalidomid;Dexamethason;;;;;;C90;;C42;;high;;;unique;;FALSE;second-line+;palliative
+PVAG-Schema;Doxorubicin;Gemcitabin;Vinblastin;Prednison;;;;C81;;C77;;high;;;unique;;FALSE;first-line;curative-intent
+PVBI;Bleomycin;Cisplatin;Ifosfamid;Vinblastin;;;;C62;C56, C38;C62;C56, C38;medium;;;unique;;FALSE;second-line+;salvage
+Ramucirumab + Paclitaxel;Ramucirumab;Paclitaxel;;;;;;C16, C15;;C16, C15;;high;;;unique;;FALSE;second-line+;palliative
+R-BAC;Bendamustin;Cytarabin;Rituximab;;;;;C83;C82, C85, C88;C77;C77;high;;;unique;;FALSE;second-line+;salvage
+R-Bendamustin;Bendamustin;Rituximab;;;;;;C82, C83, C88, C91;C85;C77, C42;C77;high;;;unique;R-BAC;FALSE;first-line and later;palliative
+R-CHOP;Cyclophosphamid;Doxorubicin;Vincristin;Rituximab;Prednison;;;C82, C83, C85;C88, C91, C86;C77;C77, C42;high;;;unique;EPOCH-R;FALSE;first-line;curative-intent
+R-CVP;Rituximab;Cyclophosphamid;Vincristin;Prednison;;;;C82, C83, C88;C85, C91;C77;C77, C42;high;;;unique;EPOCH-R,R-CHOP;FALSE;first-line;palliative
+R-DeVIC;Carboplatin;Etoposid;Ifosfamid;Rituximab;Dexamethason;;;C83, C85;C82;C77;C77;medium;;;unique;;FALSE;second-line+;salvage
+R-DHAP;Cisplatin;Cytarabin;Rituximab;Dexamethason;;;;C83, C85, C82;C88, C91;C77;C77, C42;high;;;unique;;FALSE;second-line+;salvage
+RD-Schema;Lenalidomid;Dexamethason;;;;;;C90;C88, C82, D46;C42;C42, D46;high;;;unique;D-Rd,ELO-Rd,IRd,KRD,VRD;FALSE;first-line and later;palliative
+Regorafenib;Regorafenib;;;;;;;C18, C19, C20;C17, C16, C22;C18, C19, C20;C17, C16, C22;high;;;unique;;TRUE;second-line+;palliative
+R-GemOx;Gemcitabin;Oxaliplatin;Rituximab;;;;;C83, C85;C82, C88;C77;C77;high;;;unique;;FALSE;second-line+;salvage,palliative
+R-HAD;Cytarabin;Rituximab;Dexamethason;;;;;C83;C82, C85;C77;C77;medium;;;unique;Instillation Intrathekal Quadrupel,R-DHAP;FALSE;second-line+;salvage
+Ribociclib + Letrozol;Ribociclib;Letrozol;;;;;;C50;;C50;;high;;;unique;;FALSE;first-line;palliative
+R-ICE;Carboplatin;Etoposid;Ifosfamid;Rituximab;;;;C83, C85;C82;C77;C77;high;;;unique;R-DeVIC;FALSE;second-line+;salvage
+R-MCP;Chlorambucil;Mitoxantron;Rituximab;Prednison;;;;C82, C83, C88;C91, C85;C77;C42, C77;high;;;unique;;FALSE;first-line;palliative
+R-MP;Methotrexat;Procarbazin;Rituximab;;;;;C83;C85;C71;C77;medium;;;unique;;FALSE;first-line;induction
+S-HAI;Cytarabin;Idarubicin;;;;;;C92;C91;C42;C42;medium;;;unique;FLAG-Ida;FALSE;second-line+;salvage
+SMILE;Asparaginase;Etoposid;Ifosfamid;Methotrexat;Dexamethason;;;C86;C84;C11, C30;C77;high;;;unique;;FALSE;second-line+;salvage
+Sorafenib;Sorafenib;;;;;;;C22;C73, C64;C22;C73, C64;high;;;unique;;TRUE;first-line and later;palliative
+Streptozotocin + 5-FU;Streptozotocin;Fluorouracil;;;;;;C25;C17;C25;C17;high;;;unique;;FALSE;first-line and later;palliative
+Sunitinib;Sunitinib;;;;;;;C64;C17, C16, C18, C25;C64;C17, C16, C18, C25;high;;;unique;;TRUE;first-line and later;palliative
+TAC ;Cyclophosphamid;Docetaxel;Doxorubicin;;;;;C50;;C50;;high;;;unique;;FALSE;first-line;neoadjuvant,adjuvant,curative-intent
+TAD;Thioguanin;Cytarabin;Daunorubicin;;;;;C92;C91;C42;C42;high;;;unique;;FALSE;first-line;induction,consolidation
+Tamoxifen;Tamoxifen;;;;;;;C50;C56;C50;C56;high;;;unique;Tamoxifen + GnRH-Analogon;TRUE;first-line and later;adjuvant,palliative,long-term endocrine
+Tamoxifen + GnRH-Analogon;Tamoxifen;GnRH-Analogon;;;;;;C50;;C50;;high;;;unique;;FALSE;first-line and later;adjuvant,palliative,long-term endocrine
+TCED;Cyclophosphamid;Etoposid;Thalidomid;Dexamethason;;;;C90;;C42;;medium;;;unique;;FALSE;second-line+;salvage
+TCH;Carboplatin;Docetaxel;Trastuzumab;;;;;C50;C16;C50;C16;high;;;unique;;FALSE;first-line;neoadjuvant,adjuvant,curative-intent
+T-DM1;Trastuzumab Emtansin;;;;;;;C50;;C50;;high;;;unique;;TRUE;;adjuvant,palliative
+T-DXd;Trastuzumab Deruxtecan;;;;;;;C50;C16, C34;C50;C16, C34;high;;;unique;;TRUE;second-line+;palliative
+THP;Docetaxel;Trastuzumab;Pertuzumab;;;;;C50;;C50;;high;;;unique;;FALSE;first-line;palliative,neoadjuvant
+TIP;Cisplatin;Ifosfamid;Paclitaxel;;;;;C62;C67, C65, C66, C56, C38, C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C62;C67, C65, C66, C56, C38, C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;medium;;;unique;;FALSE;second-line+;salvage
+TMZ;Temozolomid;;;;;;;C71;C70, C72, C43, C25, C75;C71;C70, C72, C43, C25, C75;high;;;unique;CAPTEM;TRUE;first-line and later;chemoradiotherapy,adjuvant,palliative
+Topotecan mono;Topotecan;;;;;;;C34;C56, C57, C48, C53;C34;C56, C57, C48, C53;high;;;unique;;TRUE;second-line+;palliative
+TPF;Cisplatin;Docetaxel;Fluorouracil;;;;;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C00, C07, C08, C11, C12, C30, C31, C15, C16;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C00, C07, C08, C11, C12, C30, C31, C15, C16;high;;;unique;;FALSE;first-line;induction,neoadjuvant
+Trabectedin;Trabectedin;;;;;;;C49;C48, C56;C49;C48, C56;high;;;unique;;TRUE;second-line+;palliative
+Trifluridin/Tipiracil;Trifluridin;Tipiracil;;;;;;C18, C19, C20;C16;C18, C19, C20;C16;high;;;unique;;FALSE;second-line+;palliative
+VAC;Vincristin;Actinomycin D;Cyclophosphamid;;;;;C49;C40, C41, C57, C62, C56;C49;C40, C41, C57, C62, C56;high;;;unique;;FALSE;first-line;curative-intent
+VCD;Bortezomib;Cyclophosphamid;Dexamethason;;;;;C90;;C42;;high;;;unique;;FALSE;first-line;induction
+Vd;Bortezomib;Dexamethason;;;;;;C90;C88;C42;C77;high;;;unique;D-VTd,VCD,VFD,VRD,VTD;FALSE;first-line and later;palliative
+VeIP;Cisplatin;Ifosfamid;Vinblastin;;;;;C62;C56, C38, C48;C62;C56, C38, C48;high;;;unique;PVBI;FALSE;second-line+;salvage
+Venetoclax + Obinutuzumab;Venetoclax;Obinutuzumab;;;;;;C91;;C42;;high;;;unique;;FALSE;first-line;palliative
+Venetoclax + Rituximab;Venetoclax;Rituximab;;;;;;C91;;C42;;high;;;unique;;FALSE;second-line+;palliative
+VFD;Bortezomib;Panobinostat;Dexamethason;;;;;C90;;C42;;high;;;unique;;FALSE;second-line+;palliative
+VIDE;Vincristin;Ifosfamid;Doxorubicin;Etoposid;;;;C40, C41, C49;C47;C40, C41, C49;C47;high;;;unique;;FALSE;first-line;induction,curative-intent
+VIPD;Cisplatin;Etoposid;Ifosfamid;Dexamethason;;;;C86;C83, C85;C11, C30, C77;C77;medium;;;unique;;FALSE;first-line and later;chemoradiotherapy,salvage
+VMP;Bortezomib;Melphalan;Prednison;;;;;C90;;C42;;high;;;unique;D-VMP;FALSE;first-line;palliative
+VRD;Bortezomib;Lenalidomid;Dexamethason;;;;;C90;;C42;;high;;;unique;;FALSE;first-line;induction
+VTD;Bortezomib;Thalidomid;Dexamethason;;;;;C90;;C42;;high;;;unique;D-VTd;FALSE;first-line;induction
+XP;Capecitabin;Cisplatin;;;;;;C16, C15;C22, C23, C24, C11;C16, C15;C22, C23, C24, C11;high;;;unique;;FALSE;first-line;palliative

@@ -15,6 +15,7 @@ Tibble
 \item{ICDOMorphologyGroup}{}
 \item{ICDOMorphologyGroup.Sub1}{}
 \item{ICDOMorphologyGroup.Sub2}{}
+\item{ICDOMorphologyHistologyCode}{}
 \item{ICDOMorphologyBehaviorCode}{}
 \item{ICDOMorphologyBehaviorLabel}{}
 }

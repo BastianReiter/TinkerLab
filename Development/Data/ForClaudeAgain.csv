@@ -1,0 +1,225 @@
+﻿Source:;Basis: ZFKD 2025, modified, annotated with support by Claude Opus, modified, Enhanced with support by Claude Opus, modified;;;;;;;;;;;
+Regime;Substance1;Substance2;Substance3;Substance4;Substance5;Substance6;Substance7;Inclusion.ICD10.Short;Inclusion.ICD10.Short.SecondaryUse;Inclusion.ICDO.TopographyCode.Short;Inclusion.ICDO.TopographyCode.Short.SecondaryUse;Confidence
+A+AVD;Brentuximab;Doxorubicin;Vinblastin;Dacarbazin;;;;C81;;C77;;high
+Abemaciclib + Fulvestrant;Abemaciclib;Fulvestrant;;;;;;C50;;C50;;high
+Abirateron + Prednison;Abirateron;Prednison;;;;;;C61;;C61;;high
+ABVD;Bleomycin;Dacarbazin;Doxorubicin;Vinblastin;;;;C81;;C77;;high
+AC;Cyclophosphamid;Doxorubicin;;;;;;C50;C49,  C54,  C40,  C41;C50;C49,  C54,  C40,  C41;high
+ACO;Cyclophosphamid;Doxorubicin;Vincristin;;;;;C34;C74,  C40,  C41,  C49,  C83,  C85;C34;C74,  C40,  C41,  C49,  C77;medium
+ADR-IFO;Doxorubicin;Ifosfamid;Mesna;;;;;C49,  C48,  C41;C40,  C38,  C47,  C54,  C69;C49, C48, C41;C40, C38, C47, C54, C69;high
+AI + GnRH-Analogon;Exemestan;GnRH-Analogon;;;;;;C50;;C50;;high
+AIDA;Tretinoin;Idarubicin;;;;;;C92;;C42;;high
+AIO;Fluorouracil;Folinsäure;;;;;;C18, C19, C20;C16, C15, C21, C25, C22, C23, C24;C18, C19, C20;C16, C15, C21, C25, C22, C23, C24;high
+Alectinib;Alectinib;;;;;;;C34;;C34;;high
+Anastrozol;Anastrozol;;;;;;;C50;;C50;;high
+Apalutamid;Apalutamid;;;;;;;C61;;C61;;high
+Atezolizumab + Bevacizumab;Atezolizumab;Bevacizumab;;;;;;C22;;C22;;high
+Atezolizumab + Carbo/Etoposid;Atezolizumab;Carboplatin;Etoposid;;;;;C34;;C34;;high
+ATRA + ATO;Tretinoin;Arsentrioxid;;;;;;C92;;C42;;high
+AVD;Dacarbazin;Doxorubicin;Vinblastin;;;;;C81;;C77;;high
+Avelumab Erhaltung;Avelumab;;;;;;;C67, C65, C66, C68;;C67, C65, C66, C68;;high
+Azacitidin + Venetoclax;Azacitidin;Venetoclax;;;;;;C92;D46;C42;C42, D46;high
+Azacitidin mono;Azacitidin;;;;;;;C92;C93, D46;C42;C42, D46;high
+BEACOPP;Bleomycin;Cyclophosphamid;Doxorubicin;Etoposid;Procarbazin;Vincristin;Prednison;C81;;C77;;high
+BEAM;Carmustin;Cytarabin;Etoposid;Melphalan;;;;C81, C82, C83, C84, C85;C86, C88, C90, C91;C77;C77, C42;high
+Bevacizumab mono;Bevacizumab;;;;;;;C71;C70, C72;C71;C70, C72;medium
+Bicalutamid;Bicalutamid;;;;;;;C61;;C61;;high
+Blinatumomab;Blinatumomab;;;;;;;C91;;C42;;high
+BOLD;Bleomycin;Dacarbazin;Lomustin;Vincristin;;;;C43;C44, C69;C43;C44, C69;high
+BP;Bendamustin;Prednison;;;;;;C90;C91, C82, C83, C85, C88;C42;C42, C77;low
+BrECADD;Brentuximab;Cyclophosphamid;Dacarbazin;Doxorubicin;Etoposid;Dexamethason;;C81;;C77;;high
+Brentuximab mono;Brentuximab;;;;;;;C81, C84;C85;C77;C77;high
+BuCy;Busulfan;Cyclophosphamid;;;;;;C92, C91;C93, C95, C90, D46;C42;C42, D46;medium
+Cabazitaxel + Prednison;Cabazitaxel;Prednison;;;;;;C61;;C61;;high
+Cabozantinib;Cabozantinib;;;;;;;C64;C22, C73;C64;C22, C73;high
+CAD;Cyclophosphamid;Doxorubicin;Dexamethason;;;;;C90;C83, C85;C42;C77;medium
+Capecitabin mono;Capecitabin;;;;;;;C18, C19, C20, C50, C16;C15, C25, C22, C23, C24, C21;C18, C19, C20, C50, C16;C15, C25, C22, C23, C24, C21;high
+CAPOX;Capecitabin;Oxaliplatin;;;;;;C18, C19, C20, C16;C15, C25, C22, C23, C24;C18, C19, C20, C16;C15, C25, C22, C23, C24;high
+CAPTEM;Capecitabin;Temozolomid;;;;;;C25, C17;C34, C18, C73;C25, C17;C34, C18, C73;high
+CarboPemPem;Carboplatin;Pembrolizumab;Pemetrexed;;;;;C34, C45;C48, C38, C33;C34, C45;C48, C38, C33;high
+Carboplatin mono;Carboplatin;;;;;;;C56, C57, C48;C34, C50, C62;C56, C57, C48;C34, C50, C62;high
+CEV;Carboplatin;Etoposid;Vincristin;;;;;C69, C74, C34;C40, C41, C49;C69, C74, C34;C40, C41, C49;low
+Chlorambucil + Obinutuzumab;Chlorambucil;Obinutuzumab;;;;;;C91;C82;C42;C77;high
+CHOEP;Cyclophosphamid;Doxorubicin;Etoposid;Vincristin;Prednison;;;C83, C84, C85, C86;C82, C88;C77;C77;high
+CHOP;Cyclophosphamid;Doxorubicin;Vincristin;Prednison;;;;C82, C83, C84, C85;C86, C88, C91, C37;C77;C77, C42, C37;high
+Cis-Pem;Cisplatin;Pemetrexed;;;;;;C34, C45;C48, C38;C34, C45;C48, C38;high
+Cisplatin + RT;Cisplatin;;;;;;;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32, C53;C15, C33, C34;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32, C53;C15, C33, C34;high
+CMF;Cyclophosphamid;Fluorouracil;Methotrexat;;;;;C50;;C50;;high
+COPP;Cyclophosphamid;Procarbazin;Vincristin;Prednison;;;;C81;C83, C85;C77;C77;high
+CPX-351;Cytarabin und Daunorubicin;;;;;;;C92;D46;C42;C42, D46;high
+CROSS;Carboplatin;Paclitaxel;;;;;;C15;C16;C15;C16;high
+CV;Cisplatin;Vinorelbin;;;;;;C34;C33, C50, C45;C34;C33, C50, C45;medium
+DA;Cytarabin;Daunorubicin;;;;;;C92;C91, C93, C94, D46;C42;C42, D46;medium
+Dabrafenib + Trametinib;Dabrafenib;Trametinib;;;;;;C43;C34, C71, C73;C43;C34, C71, C73;high
+Darolutamid;Darolutamid;;;;;;;C61;;C61;;high
+Dasatinib;Dasatinib;;;;;;;C92;C91;C42;C42;high
+DC (Doce/Carbo);Carboplatin;Docetaxel;;;;;;C50, C56, C34;C57, C48, C54, C15, C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C50, C56, C34;C57, C48, C54, C15, C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;medium
+DC (Doce/Cyclo);Cyclophosphamid;Docetaxel;;;;;;C50;;C50;;high
+Degarelix;Degarelix;;;;;;;C61;;C61;;high
+DeVIC;Carboplatin;Etoposid;Ifosfamid;Dexamethason;;;;C86, C83, C85;C82, C84, C81;C11, C30, C77;C77;medium
+Dexa-BEAM;Carmustin;Cytarabin;Etoposid;Melphalan;Dexamethason;;;C81, C83, C85;C82, C84;C77;C77;high
+DHAP;Cisplatin;Cytarabin;Dexamethason;;;;;C81, C83, C85;C82, C84, C86, C88;C77;C77;high
+Docetaxel + Prednison;Docetaxel;Prednison;;;;;;C61;;C61;;high
+Doxorubicin mono;Doxorubicin;;;;;;;C49, C48;C40, C41, C50, C54;C49, C48;C40, C41, C50, C54;high
+DRC;Cyclophosphamid;Rituximab;Dexamethason;;;;;C88;C82, C83, C85;C77;C77;high
+D-Rd;Daratumumab;Lenalidomid;Dexamethason;;;;;C90;;C42;;high
+DTIC mono;Dacarbazin;;;;;;;C43;C49, C81;C43;C49, C77;medium
+Durvalumab + Gem/Cis;Durvalumab;Gemcitabin;Cisplatin;;;;;C22, C23, C24;;C22, C23, C24;;high
+Durvalumab + Platin/Etoposid;Durvalumab;Carboplatin;Etoposid;;;;;C34;;C34;;high
+Durvalumab mono;Durvalumab;;;;;;;C34;C22, C23, C24;C34;C22, C23, C24;high
+D-VMP;Daratumumab;Bortezomib;Melphalan;Prednison;;;;C90;;C42;;high
+DVP;Cisplatin;Dacarbazin;Vindesin;;;;;C43;C69;C43;C69;medium
+D-VTd;Daratumumab;Bortezomib;Thalidomid;Dexamethason;;;;C90;;C42;;high
+EC;Cyclophosphamid;Epirubicin;;;;;;C50;C34, C49, C40, C41;C50;C34, C49, C40, C41;high
+EC-D;Cyclophosphamid;Docetaxel;Epirubicin;;;;;C50;;C50;;high
+ECF;Cisplatin;Epirubicin;Fluorouracil;;;;;C16, C15;C22, C23, C24, C25;C16, C15;C22, C23, C24, C25;high
+EC-P;Cyclophosphamid;Epirubicin;Paclitaxel;;;;;C50;;C50;;high
+ELO-Rd;Elotuzumab;Lenalidomid;Dexamethason;;;;;C90;;C42;;high
+Encorafenib + Binimetinib;Encorafenib;Binimetinib;;;;;;C43;C18, C19, C20;C43;C18, C19, C20;high
+Enzalutamid;Enzalutamid;;;;;;;C61;;C61;;high
+EOX;Capecitabin;Epirubicin;Oxaliplatin;;;;;C16, C15;C22, C23, C24;C16, C15;C22, C23, C24;high
+EPOCH-R;Cyclophosphamid;Doxorubicin;Etoposid;Vincristin;Rituximab;Prednison;;C83, C85;C82, C88, C91;C77;C77, C38;high
+Eribulin;Eribulin;;;;;;;C50;C49;C50;C49;high
+EV + Pembrolizumab;Enfortumab Vedotin;Pembrolizumab;;;;;;C67, C65, C66, C68;;C67, C65, C66, C68;;high
+Exemestan;Exemestan;;;;;;;C50;;C50;;high
+EXTREME mit Carboplatin;Carboplatin;Cetuximab;Fluorouracil;;;;;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C00, C07, C08, C11, C12, C30, C31, C15;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C00, C07, C08, C11, C12, C30, C31, C15;high
+EXTREME mit Cisplatin;Cetuximab;Cisplatin;Fluorouracil;;;;;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C00, C07, C08, C11, C12, C30, C31, C15;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C00, C07, C08, C11, C12, C30, C31, C15;high
+FAC;Cyclophosphamid;Doxorubicin;Fluorouracil;;;;;C50;;C50;;high
+FC;Cyclophosphamid;Fludarabin;;;;;;C91;C82, C83, C88;C42;C77;high
+FCR;Cyclophosphamid;Fludarabin;Rituximab;;;;;C91;C82, C83, C88;C42;C77;high
+FEC;Cyclophosphamid;Epirubicin;Fluorouracil;;;;;C50;;C50;;high
+FEC-Doc;Cyclophosphamid;Docetaxel;Epirubicin;Fluorouracil;;;;C50;;C50;;high
+FLAG-Ida;Cytarabin;Fludarabin;Idarubicin;;;;;C92;C91, C93, D46;C42;C42, D46;high
+FLO;Fluorouracil;Folinsäure;Oxaliplatin;;;;;C16, C15;C18, C19, C20, C25;C16, C15;C18, C19, C20, C25;high
+FLOT;Docetaxel;Fluorouracil;Folinsäure;Oxaliplatin;;;;C16, C15;C17, C25;C16, C15;C17, C25;high
+Flu-Cam;Alemtuzumab;Fludarabin;;;;;;C91;C84;C42;C77;medium
+FOLFIRI;Fluorouracil;Folinsäure;Irinotecan;;;;;C18, C19, C20;C16, C25, C22, C23, C24;C18, C19, C20;C16, C25, C22, C23, C24;high
+FOLFIRI + Bevacizumab;Fluorouracil;Folinsäure;Irinotecan;Bevacizumab;;;;C18, C19, C20;;C18, C19, C20;;high
+FOLFIRI + Cetuximab;Fluorouracil;Folinsäure;Irinotecan;Cetuximab;;;;C18, C19, C20;;C18, C19, C20;;high
+Folfirinox;Fluorouracil;Folinsäure;Irinotecan;Oxaliplatin;;;;C25;C22, C23, C24, C18, C19, C20;C25;C22, C23, C24, C18, C19, C20;high
+FOLFOX;Fluorouracil;Folinsäure;Oxaliplatin;;;;;C18, C19, C20;C16, C15, C25, C22, C23, C24;C18, C19, C20;C16, C15, C25, C22, C23, C24;high
+FOLFOX + Bevacizumab;Fluorouracil;Folinsäure;Oxaliplatin;Bevacizumab;;;;C18, C19, C20;C16;C18, C19, C20;C16;high
+FOLFOX + Panitumumab;Fluorouracil;Folinsäure;Oxaliplatin;Panitumumab;;;;C18, C19, C20;;C18, C19, C20;;high
+FOLFOXIRI;Fluorouracil;Folinsäure;Irinotecan;Oxaliplatin;;;;C18, C19, C20;C16, C25;C18, C19, C20;C16, C25;high
+FUFAMI;Fluorouracil;Folinsäure;Mitomycin;;;;;C18, C19, C20;C21, C16;C18, C19, C20;C21, C16;medium
+Fulvestrant mono;Fulvestrant;;;;;;;C50;;C50;;high
+GC-B (Carbo);Bevacizumab;Carboplatin;Gemcitabin;;;;;C56, C57, C48;C34;C56, C57, C48;C34;high
+GC-B (Cis);Bevacizumab;Cisplatin;Gemcitabin;;;;;C56, C57, C48;C34;C56, C57, C48;C34;high
+GDP-Schema;Cisplatin;Gemcitabin;Dexamethason;;;;;C81, C83, C85;C82, C84, C86;C77;C77;high
+GELOX;Asparaginase;Gemcitabin;Oxaliplatin;;;;;C86;C84;C11, C30;C77;high
+Gem + Nab-Paclitaxel;Gemcitabin;Nab-Paclitaxel;;;;;;C25;;C25;;high
+Gem-Carbo;Carboplatin;Gemcitabin;;;;;;C34, C56, C67;C50, C45, C57, C48, C22, C23, C24;C34, C56, C67;C50, C45, C57, C48, C22, C23, C24;medium
+Gem-Cis;Cisplatin;Gemcitabin;;;;;;C22, C23, C24, C67, C34;C25, C45, C53, C11, C65, C66;C22, C23, C24, C67, C34;C25, C45, C53, C11, C65, C66;high
+Gem-Doce;Gemcitabin;Docetaxel;;;;;;C49;C54, C48, C40, C41;C49;C54, C48, C40, C41;high
+GemOx;Gemcitabin;Oxaliplatin;;;;;;C22,C23,C24,C25;C83,C85,C84,C86,C16;C22,C23,C24,C25;C77,C16;high
+GnRH-Analogon (ADT);GnRH-Analogon;;;;;;;C61;C50;C61;C50;high
+HAM;Cytarabin ;Mitoxantron;;;;;;C92;C91, C93, D46;C42;C42, D46;medium
+Hyper-CVAD;Cyclophosphamid;Vincristin;Doxorubicin;Dexamethason;Mesna;;;C91, C83;C85, C88;C42, C77;C77;high
+Ibrutinib;Ibrutinib;;;;;;;C91;C83, C88;C42;C77;high
+ICE;Carboplatin;Etoposid;Ifosfamid;;;;;C81, C83, C85;C34, C40, C41, C49, C62, C84, C86;C77;C34, C40, C41, C49, C62, C77;high
+IEV;Epirubicin;Etoposid;Ifosfamid;;;;;C81, C83, C85;C49, C40, C41;C77;C49, C40, C41;medium
+Imatinib;Imatinib;;;;;;;C92, C16, C17;C91, C18, C48, C49;C42, C16, C17;C42, C18, C48, C49;high
+IMVP-16;Etoposid;Ifosfamid;Methotrexat;;;;;C83, C85;C81, C84;C77;C77;medium
+Instillation Intrathekal Quadrupel;Cytarabin;Methotrexat;Dexamethason;Rituximab;;;;C83, C85, C91;C92, C84, C86;C70;C77, C42;medium
+Instillation Intrathekal Tripel;Cytarabin;Methotrexat;Dexamethason;;;;;C91, C83, C85;C92, C84, C86, C50, C34;C70;C77, C42;medium
+IRd;Ixazomib;Lenalidomid;Dexamethason;;;;;C90;;C42;;high
+Knospe;Chlorambucil;Prednison;;;;;;C91;C82, C83, C88;C42;C77;high
+Knospe modifiziert;Chlorambucil;Prednison;Rituximab;;;;;C91;C82, C88;C42;C77;high
+KRD;Carfilzomib;Lenalidomid;Dexamethason;;;;;C90;;C42;;high
+Lanreotid;Lanreotid;;;;;;;C25, C17, C18;C34, C19, C20;C25, C17, C18;C34, C19, C20;high
+Lenvatinib;Lenvatinib;;;;;;;C22, C73;C54, C64;C22, C73;C54, C64;high
+Letrozol mono;Letrozol;;;;;;;C50;C54;C50;C54;high
+Lomustin mono;Lomustin;;;;;;;C71;C70, C72;C71;C70, C72;high
+MAMAC;Amsacrin;Cytarabin;;;;;;C92;C91;C42;C42;medium
+MAP;Methotrexat;Doxorubicin;Cisplatin;;;;;C40, C41;C49;C40, C41;C49;high
+MATRix;Cytarabin;Methotrexat;Rituximab;Thiotepa;;;;C83;C85;C71;C77;high
+MAV;Cytarabin;Etoposid;Mitoxantron;;;;;C92;C91, D46;C42;C42, D46;medium
+M-Cavi;Carboplatin;Methotrexat;Vinblastin;;;;;C67, C65, C66, C68;;C67, C65, C66, C68;;high
+Medroxyprogesteronacetat;Medroxyprogesteronacetat;;;;;;;C54;C56;C54;C56;high
+Megestrolacetat;Megestrolacetat;;;;;;;C54;C50;C54;C50;high
+MPT;Melphalan;Thalidomid;Prednison;;;;;C90;;C42;;high
+M-VAC;Cisplatin;Doxorubicin;Methotrexat;Vinblastin;;;;C67, C65, C66, C68;;C67, C65, C66, C68;;high
+Nab-Paclitaxel mono;Nab-Paclitaxel;;;;;;;C50;C34, C25;C50;C34, C25;high
+nal-IRI + 5-FU/FA;Irinotecan liposomal;Fluorouracil;Folinsäure;;;;;C25;;C25;;high
+Nigro;Fluorouracil;Mitomycin;;;;;;C21;;C21;;high
+Nilotinib;Nilotinib;;;;;;;C92;C91;C42;C42;high
+Niraparib;Niraparib;;;;;;;C56, C57, C48;;C56, C57, C48;;high
+Nivolumab + Ipilimumab;Nivolumab;Ipilimumab;;;;;;C43, C64;C45, C18, C19, C20, C22, C34, C69;C43, C64;C45, C18, C19, C20, C22, C34, C69;high
+Nivolumab mono;Nivolumab;;;;;;;C34, C43, C64;C32, C09, C10, C15, C16, C67, C22, C81, C45;C34, C43, C64;C32, C09, C10, C15, C16, C67, C22, C77, C45;high
+O-Benda;Obinutuzumab;Bendamustin;;;;;;C82, C91;C83, C88, C85;C77, C42;C77;high
+Octreotid LAR;Octreotid;;;;;;;C25, C17, C18;C34, C73, C19, C20;C25, C17, C18;C34, C73, C19, C20;high
+Olaparib;Olaparib;;;;;;;C50, C56, C61, C25;C57, C48;C50, C56, C61, C25;C57, C48;high
+Osimertinib;Osimertinib;;;;;;;C34;;C34;;high
+PAC;Cisplatin;Cyclophosphamid;Doxorubicin;;;;;C56, C54;C57, C48, C49;C56, C54;C57, C48, C49;medium
+Paclitaxel mono;Paclitaxel;;;;;;;C50;C56, C57, C48, C34, C15;C50;C56, C57, C48, C34, C15;high
+Paclitaxel/Cisplatin/Bevacizumab;Paclitaxel;Cisplatin;Bevacizumab;;;;;C53;;C53;;high
+Palbociclib + Letrozol;Palbociclib;Letrozol;;;;;;C50;;C50;;high
+Pazopanib;Pazopanib;;;;;;;C64, C49;C48;C64, C49;C48;high
+PC;Carboplatin;Paclitaxel;;;;;;C56, C57, C48, C34, C54;C53, C15, C32, C67, C50, C37, C80;C56, C57, C48, C34, C54;C53, C15, C32, C67, C50, C37, C80;high
+PC mit Bevacizumab;Bevacizumab;Carboplatin;Paclitaxel;;;;;C56, C57, C48, C34;C53, C54, C18, C19, C20;C56, C57, C48, C34;C53, C54, C18, C19, C20;high
+PCV;Lomustin;Procarbazin;Vincristin;;;;;C71;C70, C72;C71;C70, C72;high
+PE;Cisplatin;Etoposid;;;;;;C34;C37, C62, C56, C25, C80, C33;C34;C37, C62, C56, C25, C80, C33;high
+PEB;Bleomycin;Cisplatin;Etoposid;;;;;C62;C56, C38, C48, C71;C62;C56, C38, C48, C71;high
+PE-Carbo;Carboplatin;Etoposid;;;;;;C34;C37, C25, C80, C33;C34;C37, C25, C80, C33;high
+PEI;Cisplatin;Etoposid;Ifosfamid;;;;;C62;C34, C38, C48, C56, C49;C62;C34, C38, C48, C56, C49;high
+Pembro + Carbo/Paclitaxel;Pembrolizumab;Carboplatin;Paclitaxel;;;;;C34;C53;C34;C53;high
+Pembro + Carbo/Pem;Pembrolizumab;Carboplatin;Pemetrexed;;;;;C34;;C34;;high
+Pembro + Platin/5-FU;Pembrolizumab;Cisplatin;Fluorouracil;;;;;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C00, C07, C08, C11, C12, C30, C31;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C00, C07, C08, C11, C12, C30, C31;high
+Pembrolizumab + Axitinib;Pembrolizumab;Axitinib;;;;;;C64;;C64;;high
+Pembrolizumab mono;Pembrolizumab;;;;;;;C34, C43;C67, C65, C66, C68, C32, C09, C10, C15, C16, C18, C22, C53, C80;C34, C43;C67, C65, C66, C68, C32, C09, C10, C15, C16, C18, C22, C53, C80;high
+PF;Cisplatin;Fluorouracil;;;;;;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C00, C07, C08, C11, C12, C30, C31, C15, C16;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C00, C07, C08, C11, C12, C30, C31, C15, C16;high
+P-GEMOX;Pegaspargase;Gemcitabin;Oxaliplatin;;;;;C86;C84;C11, C30;C77;high
+PLD mono;Doxorubicin liposomal;;;;;;;C56, C57, C48;C50, C46;C56, C57, C48;C50, C46;high
+PLF;Cisplatin;Fluorouracil;Folinsäure;;;;;C16, C15;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C16, C15;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;medium
+Pola-R-CHP;Polatuzumab Vedotin;Rituximab;Cyclophosphamid;Doxorubicin;Prednison;;;C83;C85;C77;C77;high
+Pom-Dex;Pomalidomid;Dexamethason;;;;;;C90;;C42;;high
+PVAG-Schema;Doxorubicin;Gemcitabin;Vinblastin;Prednison;;;;C81;;C77;;high
+PVBI;Bleomycin;Cisplatin;Ifosfamid;Vinblastin;;;;C62;C56, C38;C62;C56, C38;medium
+Ramucirumab + Paclitaxel;Ramucirumab;Paclitaxel;;;;;;C16, C15;;C16, C15;;high
+R-BAC;Bendamustin;Cytarabin;Rituximab;;;;;C83;C82, C85, C88;C77;C77;high
+R-Bendamustin;Bendamustin;Rituximab;;;;;;C82, C83, C88, C91;C85;C77, C42;C77;high
+R-CHOP;Cyclophosphamid;Doxorubicin;Vincristin;Rituximab;Prednison;;;C82, C83, C85;C88, C91, C86;C77;C77, C42;high
+R-CVP;Rituximab;Cyclophosphamid;Vincristin;Prednison;;;;C82, C83, C88;C85, C91;C77;C77, C42;high
+R-DeVIC;Carboplatin;Etoposid;Ifosfamid;Rituximab;Dexamethason;;;C83, C85;C82;C77;C77;medium
+R-DHAP;Cisplatin;Cytarabin;Rituximab;Dexamethason;;;;C83, C85, C82;C88, C91;C77;C77, C42;high
+RD-Schema;Lenalidomid;Dexamethason;;;;;;C90;C88, C82, D46;C42;C42, D46;high
+Regorafenib;Regorafenib;;;;;;;C18, C19, C20;C17, C16, C22;C18, C19, C20;C17, C16, C22;high
+R-GemOx;Gemcitabin;Oxaliplatin;Rituximab;;;;;C83, C85;C82, C88;C77;C77;high
+R-HAD;Cytarabin;Rituximab;Dexamethason;;;;;C83;C82, C85;C77;C77;medium
+Ribociclib + Letrozol;Ribociclib;Letrozol;;;;;;C50;;C50;;high
+R-ICE;Carboplatin;Etoposid;Ifosfamid;Rituximab;;;;C83, C85;C82;C77;C77;high
+R-MCP;Chlorambucil;Mitoxantron;Rituximab;Prednison;;;;C82, C83, C88;C91, C85;C77;C42, C77;high
+R-MP;Methotrexat;Procarbazin;Rituximab;;;;;C83;C85;C71;C77;medium
+S-HAI;Cytarabin;Idarubicin;;;;;;C92;C91;C42;C42;medium
+SMILE;Asparaginase;Etoposid;Ifosfamid;Methotrexat;Dexamethason;;;C86;C84;C11, C30;C77;high
+Sorafenib;Sorafenib;;;;;;;C22;C73, C64;C22;C73, C64;high
+Streptozotocin + 5-FU;Streptozotocin;Fluorouracil;;;;;;C25;C17;C25;C17;high
+Sunitinib;Sunitinib;;;;;;;C64;C17, C16, C18, C25;C64;C17, C16, C18, C25;high
+TAC ;Cyclophosphamid;Docetaxel;Doxorubicin;;;;;C50;;C50;;high
+TAD;Thioguanin;Cytarabin;Daunorubicin;;;;;C92;C91;C42;C42;high
+Tamoxifen;Tamoxifen;;;;;;;C50;C56;C50;C56;high
+Tamoxifen + GnRH-Analogon;Tamoxifen;GnRH-Analogon;;;;;;C50;;C50;;high
+TCED;Cyclophosphamid;Etoposid;Thalidomid;Dexamethason;;;;C90;;C42;;medium
+TCH;Carboplatin;Docetaxel;Trastuzumab;;;;;C50;C16;C50;C16;high
+T-DM1;Trastuzumab Emtansin;;;;;;;C50;;C50;;high
+T-DXd;Trastuzumab Deruxtecan;;;;;;;C50;C16, C34;C50;C16, C34;high
+THP;Docetaxel;Trastuzumab;Pertuzumab;;;;;C50;;C50;;high
+TIP;Cisplatin;Ifosfamid;Paclitaxel;;;;;C62;C67, C65, C66, C56, C38, C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C62;C67, C65, C66, C56, C38, C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;medium
+TMZ;Temozolomid;;;;;;;C71;C70, C72, C43, C25, C75;C71;C70, C72, C43, C25, C75;high
+Topotecan mono;Topotecan;;;;;;;C34;C56, C57, C48, C53;C34;C56, C57, C48, C53;high
+TPF;Cisplatin;Docetaxel;Fluorouracil;;;;;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C00, C07, C08, C11, C12, C30, C31, C15, C16;C01, C02, C03, C04, C05, C06, C09, C10, C13, C14, C32;C00, C07, C08, C11, C12, C30, C31, C15, C16;high
+Trabectedin;Trabectedin;;;;;;;C49;C48, C56;C49;C48, C56;high
+Trifluridin/Tipiracil;Trifluridin;Tipiracil;;;;;;C18, C19, C20;C16;C18, C19, C20;C16;high
+VAC;Vincristin;Actinomycin D;Cyclophosphamid;;;;;C49;C40, C41, C57, C62, C56;C49;C40, C41, C57, C62, C56;high
+VCD;Bortezomib;Cyclophosphamid;Dexamethason;;;;;C90;;C42;;high
+Vd;Bortezomib;Dexamethason;;;;;;C90;C88;C42;C77;high
+VeIP;Cisplatin;Ifosfamid;Vinblastin;;;;;C62;C56, C38, C48;C62;C56, C38, C48;high
+Venetoclax + Obinutuzumab;Venetoclax;Obinutuzumab;;;;;;C91;;C42;;high
+Venetoclax + Rituximab;Venetoclax;Rituximab;;;;;;C91;;C42;;high
+VFD;Bortezomib;Panobinostat;Dexamethason;;;;;C90;;C42;;high
+VIDE;Vincristin;Ifosfamid;Doxorubicin;Etoposid;;;;C40, C41, C49;C47;C40, C41, C49;C47;high
+VIPD;Cisplatin;Etoposid;Ifosfamid;Dexamethason;;;;C86;C83, C85;C11, C30, C77;C77;medium
+VMP;Bortezomib;Melphalan;Prednison;;;;;C90;;C42;;high
+VRD;Bortezomib;Lenalidomid;Dexamethason;;;;;C90;;C42;;high
+VTD;Bortezomib;Thalidomid;Dexamethason;;;;;C90;;C42;;high
+XP;Capecitabin;Cisplatin;;;;;;C16, C15;C22, C23, C24, C11;C16, C15;C22, C23, C24, C11;high

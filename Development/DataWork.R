@@ -6,7 +6,11 @@
 #==============================================================================#
 
 
+library(dplyr)
+library(purrr)
 library(readxl)
+library(stringr)
+library(tidyr)
 library(usethis)
 
 
@@ -17,7 +21,7 @@ library(usethis)
 Res.ATCCoding <- read_excel(path = "./Development/Data/TinkerLab_ATCCoding.xlsx",
                             sheet = "ATCData")
 
-use_data(Res.ATCCoding, overwrite = TRUE)
+usethis::use_data(Res.ATCCoding, overwrite = TRUE)
 
 
 
@@ -49,6 +53,67 @@ Res.ICDOMorphology <- FullCodes      # see script "./Development/ICDOData.R"
 
 use_data(Res.ICDOMorphology, overwrite = TRUE)
 
+
+
+# Data on Systemic Therapy Regimen
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Res.SystemicTherapy.Regimens <- read_excel(path = "./Development/Data/TinkerLab_SystemicTherapy.xlsx",
+                                           sheet = "Regimens",
+                                           skip = 2)
+
+
+# SubstanceNames <- Res.SystemicTherapy.Regimens %>%
+#                       select(starts_with("Substance")) %>%
+#                       unlist(use.names = FALSE) %>%
+#                       unique()
+#
+# EligibleSubstanceNames <- dsCCPhos::Meta.Values %>%
+#                               filter(Table == "SystemicTherapy",
+#                                      FeatureName.Curated == "Substance") %>%
+#                               pluck("Value.Raw")
+#
+# SubstanceNameCheck <- SubstanceNames[!(SubstanceNames %in% EligibleSubstanceNames)]
+# SubstanceNameCheck
+
+
+Res.SystemicTherapy.Regimens <- Res.SystemicTherapy.Regimens %>%
+                                    select(Regimen,
+                                           starts_with("Substance"),
+                                           Criteria.ICD10Code,
+                                           Criteria.ICD10Code.Short,
+                                           Criteria.ICD10Code.SecondaryUse,
+                                           Criteria.ICD10Code.Short.SecondaryUse,
+                                           Criteria.ICDO.TopographyCode.Short,
+                                           Criteria.ICDO.TopographyCode.Short.SecondaryUse,
+                                           Criteria.ICDO.MorphologyHistologyCode,
+                                           IsSingleAgentRegimen,
+                                           ExpectedLOT,
+                                           ExpectedTherapyContext) %>%
+                                    mutate(IsLikelyFirstLine = case_when(ExpectedLOT %in% c("first-line", "first-line and later") ~ TRUE,
+                                                                         !is.na(ExpectedLOT) ~ FALSE,
+                                                                         .default = NA),
+                                           IsLikelyLaterLine = case_when(ExpectedLOT == "second-line and later" ~ TRUE,
+                                                                         .default = NA),
+                                           IsLikelyCurativeIntention = case_when(str_detect(ExpectedTherapyContext, "curative-intent|induction|consolidation") ~ TRUE,
+                                                                                 !is.na(ExpectedTherapyContext) ~ FALSE,
+                                                                                 .default = NA),
+                                           IsUsedInPalliativeIntention = case_when(str_detect(ExpectedTherapyContext, "palliative") ~ TRUE,
+                                                                                   !is.na(ExpectedTherapyContext) ~ FALSE,
+                                                                                   .default = NA),
+                                           IsUsedInNeoadjuvant = case_when(str_detect(ExpectedTherapyContext, "neoadjuvant") ~ TRUE,
+                                                                           !is.na(ExpectedTherapyContext) ~ FALSE,
+                                                                           .default = NA),
+                                           IsUsedInAdjuvant = case_when(str_detect(ExpectedTherapyContext, "adjuvant") & !str_detect(ExpectedTherapyContext, "neoadjuvant") ~ TRUE,
+                                                                        !is.na(ExpectedTherapyContext) ~ FALSE,
+                                                                        .default = NA),
+                                           IsUsedInSalvage = case_when(str_detect(ExpectedTherapyContext, "salvage") ~ TRUE,
+                                                                        .default = NA),
+                                           IsUsedInMaintenance = case_when(str_detect(ExpectedTherapyContext, "maintenance|long-term endocrine") ~ TRUE,
+                                                                           .default = NA),
+                                           IsUsedInChemoradiotherapy = case_when(str_detect(ExpectedTherapyContext, "chemoradiotherapy") ~ TRUE,
+                                                                                .default = NA))
+
+usethis::use_data(Res.SystemicTherapy.Regimens, overwrite = TRUE)
 
 
 #===============================================================================

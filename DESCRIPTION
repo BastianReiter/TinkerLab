@@ -1,7 +1,7 @@
 Package: TinkerLab
 Title: TinkerLab
-Version: 0.2.0
-Authors@R: 
+Version: 0.2.01
+Authors@R:
     person("Bastian", "Reiter", , "bastian.reiter@posteo.de", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-1088-0502"))
 Description: General Functions and Resource Data from Tinkerbelly

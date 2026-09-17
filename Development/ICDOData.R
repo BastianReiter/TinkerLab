@@ -12,6 +12,7 @@ FullCodes <- ICDOData %>%
                   filter(Level == "Preferred") %>%
                   select(Code, Term) %>%
                   mutate(ICDOMorphologyGroupCode = str_sub(Code, 1, 3),
+                         ICDOMorphologyHistologyCode = str_sub(Code, 1, 4),
                          ICDOMorphologyBehaviorCode = str_extract(Code, pattern = "/[^/]+$"),
                          ICDOMorphologyBehaviorLabel = case_match(ICDOMorphologyBehaviorCode,
                                                                   "/0" ~ "Benign",
@@ -64,6 +65,7 @@ FullCodes <- FullCodes %>%
                          ICDOMorphologyGroup,
                          ICDOMorphologyGroup.Sub1,
                          ICDOMorphologyGroup.Sub2,
+                         ICDOMorphologyHistologyCode,
                          ICDOMorphologyBehaviorCode,
                          ICDOMorphologyBehaviorLabel) %>%
                   rename(c(ICDOMorphologyCode = "Code",
