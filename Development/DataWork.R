@@ -87,6 +87,10 @@ Res.SystemicTherapy.Regimens <- Res.SystemicTherapy.Regimens %>%
                                            Criteria.ICDO.TopographyCode.Short.SecondaryUse,
                                            Criteria.ICDO.MorphologyHistologyCode,
                                            IsSingleAgentRegimen,
+                                           IsChemotherapy,
+                                           IsImmunotherapy,
+                                           IsTargetedTherapy,
+                                           IsHormoneTherapy,
                                            ExpectedLOT,
                                            ExpectedTherapyContext) %>%
                                     mutate(IsLikelyFirstLine = case_when(ExpectedLOT %in% c("first-line", "first-line and later") ~ TRUE,
